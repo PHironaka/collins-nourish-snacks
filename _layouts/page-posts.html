@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+
+  {% include head.html %}
+
+  <body>
+
+    {% include header.html %}
+
+    <main class="site-main js-scrolled-trigger">
+
+      <section class="section bg-cool-red-light">
+        <div class="container">
+          <ul class="round-items__list grid">{%
+            for item in paginator.posts
+          %}<li class="round-items__item grid__item medium--one-third">
+              <a href="{{item.url}}">
+                <div class="round-items__circle bg-warm-red-dark" style="background-image: url('{% if item.grid_image != '' %}{{ item.grid_image }}{% elsif item.main_image != '' %}{{ item.main_image }}{% endif %}');">
+                  <div class="round-items__image-hover" style="background-image: url('{{ page.hover_image }}');"></div>
+                </div>
+              </a>
+              <div class="round-items__text">
+                <h2 class="warm-red-dark round-items__title">{{ item.title }}</h2>
+                <a class="warm-red-dark round-items__paragraph" href="{{item.url}}">READ MORE</a>
+              </div>
+            </li>{%
+            endfor
+        %}</ul>
+
+        <!-- Pagination links -->
+        <div class="pagination">
+          {% if paginator.next_page %}
+            <a href="{{ paginator.next_page_path }}" class="warm-red-dark pagination__next">Read <span></span> More</a>
+          {% endif %}
+        </div>
+        </div>
+      </section>
+
+    </main>
+
+    {% include footer.html %}
+
+  </body>
+
+</html>

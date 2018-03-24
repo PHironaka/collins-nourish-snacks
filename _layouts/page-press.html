@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+
+  {% include head.html %}
+
+  <body>
+
+    {% include header.html %}
+
+    <main class="site-main js-scrolled-trigger">
+
+      <section class="section bg-orange-light">
+        <div class="container">
+          <ul class="round-items__list grid">
+            {% assign sorted_press = site.press | sort:"position" %}
+            {%
+            for item in sorted_press
+          %}<li class="round-items__item grid__item medium--one-third">
+              <a target="_blank" rel="noopener noreferrer" href="{{item.link}}">
+                <div class="round-items__circle bg-violet-dark">
+                  <div class="round-items__image"><img src="{{ item.logo_image }}" alt="{{ item.company_name }}"></div>
+                  <div class="round-items__image-hover" style="background-image: url('{{ page.hover_image }}');"></div>
+                </div>
+              </a>
+              <div class="round-items__text">
+                <p class="violet-dark round-items__paragraph">“{{ item.quote }}”</p>
+                <a class="violet-dark round-items__paragraph" target="_blank" rel="noopener noreferrer" href="{{item.link}}">READ MORE</a>
+              </div>
+            </li>{%
+            endfor
+        %}</ul>
+        </div>
+      </section>
+
+    </main>
+
+    {% include footer.html %}
+
+  </body>
+
+</html>

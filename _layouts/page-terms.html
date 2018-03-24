@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+
+  {% include head.html %}
+
+  <body>
+
+    {% include header.html %}
+
+    <main class="site-main js-scrolled-trigger">
+
+      <section class="section bg-warm-red-light yellow">
+        <div class="container"><h1 class="page__title">{{ page.title }}</h1></div>
+
+        <div class="container container--thin aux-page aux-page__terms">
+          {{ content }}
+        </div>
+      </section>
+
+    </main>
+
+    {% include footer.html %}
+
+  </body>
+
+</html>

@@ -1,0 +1,121 @@
+//
+//   @fonts
+// --------------------------------------------------------
+//  _1_base/_fonts.scss
+// --------------------------------------------------------
+//
+//  Define the fonts used in this app and declare extend
+//  classes to be used in your CSS.
+//
+//  If you are using a webfont, see the _1_base/_mixins.scss
+//  file for details on the font embed mixin that is used to
+//  embed webfonts.
+//
+//  for example, to create a font-family named "interstate-light"
+//  using a font at /fonts/interstate_light-webfont.woff (and other extensions)
+//
+//  Examples:
+//  @include embed-font("interstate-light", "interstate_light-webfont");
+//  @include embed-font('BLOKKRegular', 'BLOKKRegular/webfonts/BLOKKRegular');
+//
+//  Some icons need extra styles to display correctly – with ligatures.
+//  Use the icon-font mixin to generate these styles.
+//
+//  Example:
+//  .ss-social-circle {
+//    @include icon-font("SS Social Circle");
+//  }
+//
+// --------------------------------------------------------
+
+$georgia: Georgia, Cambria, "Times New Roman", Times, serif;
+$helvetica: "Helvetica Neue", Helvetica, Arial, sans-serif;
+$lucida-grande: "Lucida Grande", Tahoma, Verdana, Arial, sans-serif;
+$monospace: "Bitstream Vera Sans Mono", Consolas, Monaco, 'Andale Mono', monospace;
+$palatino: Palatino, "Times New Roman", Times, serif;
+$verdana: Verdana, Geneva, sans-serif;
+
+// double - x small, small, medium, x large
+@include embed-font('DoubleXS', 'Double/Double-XSmall');
+@include embed-font('DoubleS', 'Double/Double-Small');
+@include embed-font('Double', 'Double/Double-Medium');
+@include embed-font('DoubleXL', 'Double/Double-XLarge');
+
+
+
+
+//
+//   @sans
+// --------------------------------------------------------
+//
+//  use @include sans for this font
+//
+// --------------------------------------------------------
+
+@mixin sans {
+    font-family: $helvetica;
+}
+
+
+
+
+//
+//   @serif
+// --------------------------------------------------------
+//
+//  use @include serif for this font
+//
+// --------------------------------------------------------
+
+@mixin serif {
+    font-family: 'Double', $georgia;
+    font-weight: 400;
+}
+
+
+
+
+//
+//   @serif-xs
+// --------------------------------------------------------
+//
+//  use @include serif-xs for this font
+//
+// --------------------------------------------------------
+
+@mixin serif-xs {
+    font-family: 'DoubleXS', $georgia;
+    font-weight: 200;
+}
+
+
+
+
+//
+//   @serif-s
+// --------------------------------------------------------
+//
+//  use @include serif-s for this font
+//
+// --------------------------------------------------------
+
+@mixin serif-s {
+    font-family: 'DoubleS', $georgia;
+    font-weight: 300;
+}
+
+
+
+
+//
+//   @serif-xl
+// --------------------------------------------------------
+//
+//  use @include serif-xl for this font
+//
+// --------------------------------------------------------
+
+@mixin serif-xl {
+    font-family: 'DoubleXL', $georgia;
+    font-weight: 700;
+}

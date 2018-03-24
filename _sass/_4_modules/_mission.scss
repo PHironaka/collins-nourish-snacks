@@ -1,0 +1,36 @@
+//
+//   @mission
+// --------------------------------------------------------
+//  _5_sections/_mission.scss
+// --------------------------------------------------------
+//
+//  Company mission - shows on the home page.
+//
+// --------------------------------------------------------
+
+.mission {
+    @include serif-s;
+    @include font-size('xl');
+
+    color: color('violet', 'dark');
+    text-align: center;
+    text-transform: uppercase;
+    transition: color .3s ease-in-out;
+}
+
+.mission em {
+    @include serif;
+
+    font-style: normal;
+}
+
+.mission strong {
+    @include serif-xl;
+
+    color: color('warm-red', 'light');
+    transition: color .3s ease-in-out;
+}
+
+.mission p + p {
+    margin-top: 1em;
+}

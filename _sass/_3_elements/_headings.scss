@@ -1,0 +1,61 @@
+//
+//   @headings
+// --------------------------------------------------------
+//   _3_elements/_headings.scss
+// --------------------------------------------------------
+//
+//  We set any base styles for any headings that have
+//  no class names.
+//
+//  Note: Often, we'll use bold fonts, and if a bold font
+//  has font-weight: bold it looks terrible.  In
+//  this case, use font-weight: normal;
+//
+// --------------------------------------------------------
+
+h1 a,
+h2 a,
+h3 a,
+h4 a,
+h5 a,
+h6 a {
+    text-decoration: none;
+}
+
+h2 {
+    @include serif-xl;
+    @include font-size('ml');
+    @include spacing('xl', 'margin', 'top');
+    @include spacing('m');
+
+    text-transform: uppercase;
+
+    @media #{query('s', 'max')} {
+        font-size: rem(20);
+    }
+}
+
+h3 {
+    @include serif-xs;
+    @include font-size('ms');
+    @include spacing('xxs');
+    @include spacing('m', 'margin', 'top');
+
+    margin-bottom: 0;
+
+    @media #{query('s', 'max')} {
+        font-size: rem(18);
+    }
+}
+
+h4 {
+    @include serif-s;
+    @include font-size('s');
+    @include spacing('m', 'margin', 'top');
+
+    margin-bottom: 0;
+
+    @media #{query('s', 'max')} {
+        font-size: rem(16);
+    }
+}

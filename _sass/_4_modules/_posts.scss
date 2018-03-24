@@ -1,0 +1,50 @@
+//
+//   @posts
+// --------------------------------------------------------
+//  _5_sections/_posts.scss
+// --------------------------------------------------------
+//
+//  Individual post pages
+//
+// --------------------------------------------------------
+
+.post {
+    color: color('warm-red', 'dark');
+}
+
+.post__image {
+    @include spacing('xl');
+}
+
+.post__title {
+    @include serif-xl;
+    @include font-size('xl');
+
+    text-transform: uppercase;
+}
+
+.post__meta {
+    @include serif-xs;
+    @include font-size('ml');
+    @include spacing('l');
+}
+
+.post__text {
+    @include serif-s;
+    @include font-size('s');
+}
+
+.post__text a {
+    color: color('warm-red', 'light');
+}
+
+.post__text a:hover,
+.post__text a:focus,
+.post__text a:active {
+    color: color('white');
+}
+
+.post__text > p:first-child {
+    @include font-size('ml');
+    @include spacing('m');
+}

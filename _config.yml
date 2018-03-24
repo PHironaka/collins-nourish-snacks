@@ -1,0 +1,90 @@
+---
+title: Nourish
+timezone: UTC
+collections:
+  giving:
+    title: Giving
+    output: false
+  posts:
+    title: Posts
+    output: true
+  press:
+    title: Press
+    output: false
+  snacks:
+    title: Snacks
+    output: true
+    permalink: "/snacks/:path/"
+  uploads:
+    title: Uploads
+    output: true
+defaults:
+- scope:
+    path: ''
+    type: posts
+  values:
+    layout: post
+    permalink: "/posts/:title/"
+    author: ''
+    main_image: ''
+    grid_image: ''
+- scope:
+    path: ''
+    type: pages
+  values:
+    layout: page
+- scope:
+    path: ''
+    type: press
+  values:
+    layout: default
+    company_name: ''
+    logo_image: ''
+    quote: ''
+    link: ''
+- scope:
+    path: ''
+    type: giving
+  values:
+    layout: default
+    main_image: ''
+    title: ''
+    main_text: ''
+- scope:
+    path: ''
+    type: snacks
+  values:
+    layout: snack
+    short_title: ''
+    sub_header: ''
+    short_sub_header: ''
+    buy_link: ''
+    ingredient_list_text: ''
+    ingredient_items:
+    - ingredient_name: ''
+      ingredient_description: ''
+    serving_size_text: ''
+    main_image: ''
+    secondary_images: []
+    hover_image: ''
+    snack_piece_image: ''
+    primary_color: ''
+    secondary_color: ''
+    header_top_color: ''
+    header_bottom_color: ''
+    snacks: []
+plugins:
+- jekyll-autoprefixer
+- jekyll-paginate
+permalink: pretty
+paginate: 24
+paginate_path: "/posts/page:num/"
+sass:
+  sass_dir: _sass
+  style: compressed
+autoprefixer:
+  browsers:
+  - last 2 versions
+exclude:
+- Gemfile.lock
+- README.md

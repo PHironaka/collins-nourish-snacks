@@ -1,0 +1,162 @@
+//
+//   @locator
+// --------------------------------------------------------
+//  _5_sections/_locator.scss
+// --------------------------------------------------------
+//
+//  Snack locator module.
+//
+// --------------------------------------------------------
+
+#storemapper small {
+    display: none;
+}
+
+#storemapper-form {
+    padding: 0 !important;
+}
+
+#storemapper-form label {
+    @include serif-s;
+    @include font-size('ms');
+
+    text-transform: uppercase;
+}
+
+#storemapper-form label::before {
+    @include serif-xl;
+
+    content: 'Get Your Snack On';
+    display: block;
+}
+
+#storemapper-form input {
+    background: transparent !important;
+    border: 0 !important;
+    border-bottom: 1px solid color('violet', 'dark') !important;
+    border-radius: 0 !important;
+    box-shadow: none !important;
+    color: color('violet', 'dark') !important;
+    font-family: "DoubleXL",Georgia,Cambria,"Times New Roman",Times,serif !important;
+    font-size: rem(50) !important;
+    font-weight: 700 !important;
+    height: auto !important;
+    line-height: 1 !important;
+    margin-top: .5em !important;
+    padding: 0 .1em !important;
+}
+
+#storemapper-form input {
+    &::placeholder {
+        opacity: 0 !important;
+    }
+}
+
+#storemapper-form button {
+    background: transparent !important;
+    border: 1px solid currentColor !important;
+    border-radius: 0 !important;
+    color: currentColor !important;
+    font-family: "DoubleXL",Georgia,Cambria,"Times New Roman",Times,serif !important;
+    font-size: rem(24) !important;
+    font-weight: 700 !important;
+    line-height: 1.125 !important;
+    margin-top: spacing('xxs') !important;
+    padding: .5em 2em !important;
+    outline: none !important;
+    text-align: center !important;
+    text-decoration: none !important;
+    text-transform: uppercase !important;
+}
+
+#storemapper-form button:hover,
+#storemapper-form button:focus {
+    color: currentColor;
+    opacity: .5;
+}
+
+#storemapper-list li {
+    @include font-size('xs');
+
+    border: 0 !important;
+    margin-bottom: 0 !important;
+}
+
+#storemapper-list li + li {
+    border-top: 1px solid rgba(color('violet', 'dark'), .25) !important;
+    margin-top: spacing('xs') !important;
+    padding-top: spacing('xs') !important;
+}
+
+#storemapper-list li h4 {
+    @include serif-xl;
+
+    margin-bottom: 0 !important;
+}
+
+#storemapper-list li p.storemapper-address {
+    @include serif-xl;
+
+    text-transform: uppercase;
+}
+
+#storemapper-list li p.storemapper-custom-3 {
+    @include serif-s;
+}
+
+#storemapper-list li p.storemapper-distance {
+    @include serif-xl;
+
+    margin-top: .5em;
+}
+
+#storemapper-list li a {
+    @include serif-xl;
+
+    color: inherit;
+    transition: opacity .3s ease-in-out;
+}
+
+#storemapper-list li a:hover,
+#storemapper-list li a:focus,
+#storemapper-list li a:active {
+    color: inherit;
+    opacity: .5;
+}
+
+// input field
+// search button
+
+@media #{query('768px', 'max')} {
+    #storemapper {
+        display: flex;
+        flex-direction: column;
+        height: auto !important;
+    }
+
+    #storemapper-left {
+        float: none !important;
+        height: auto !important;
+        order: 1;
+        position: relative !important;
+    }
+
+    #storemapper-right {
+        float: none !important;
+        left: 0 !important;
+        padding-top: 75%;
+        position: relative !important;
+        height: 0 !important;
+    }
+}
+
+@media #{query('768px')} {
+    #storemapper-left {
+        padding-right: $gutter*2;
+        width: 49% !important;
+    }
+
+    #storemapper-right {
+        width: 51% !important;
+    }
+}

@@ -1,0 +1,252 @@
+//
+//   @site-header
+// --------------------------------------------------------
+//  _5_sections/_site-header.scss
+// --------------------------------------------------------
+//
+//  Site-wide header
+//
+// --------------------------------------------------------
+
+[role=banner] {
+    background-color: none;
+    color: color('brown', 'dark');
+    left: 0;
+    position: absolute;
+    right: 0;
+    transition: all .3s ease-in-out;
+    top: 0;
+    z-index: zindex('header');
+
+    @media #{query('m')} {
+        position: fixed;
+    }
+}
+
+[role=banner].m--alt,
+[role=banner].m--pink {
+    color: color('white');
+}
+
+[role=banner].is-scrolled {
+    background-color: color('white');
+    color: color('brown', 'dark');
+}
+
+[role=banner].m--pink.is-scrolled {
+    background-color: color('cool-red', 'light');
+    color: color('white');
+}
+
+@media #{query('m', 'max')} {
+    [role=banner].m--mobile-block {
+        background-color: color('white');
+        color: color('brown', 'dark');
+        position: relative;
+    }
+}
+
+
+
+
+//   @branding
+// --------------------------------------------------------
+//  The logo & (optional) wordmark
+//
+//  This would be setup like this
+//
+//  <a href="/" class="branding">
+//    <img src="logo.svg" class="branding__logo" alt="My Company">
+//    <h1 class="branding__wordmark">My Company</h1>
+//  </a>
+// --------------------------------------------------------
+
+.branding {
+    color: inherit;
+    display: block;
+    margin: 0 auto;
+    padding: spacing('xs') 0;
+    transition: all .3s ease-in-out;
+    width: rem(80);
+}
+
+.branding:hover,
+.branding:focus,
+.branding:active {
+    color: inherit;
+}
+
+[role=banner].m--alt .branding {
+    color: color('brown', 'dark');
+}
+
+[role=banner].m--alt .branding:hover,
+[role=banner].m--alt .branding:focus,
+[role=banner].m--alt .branding:active {
+    color: color('white');
+}
+
+[role=banner].is-scrolled .branding:hover,
+[role=banner].is-scrolled .branding:focus,
+[role=banner].is-scrolled .branding:active {
+    color: color('brown', 'dark');
+    opacity: .5;
+}
+
+[role=banner].m--pink .branding {
+    color: color('warm-red', 'dark');
+}
+
+[role=banner].m--pink .branding:hover,
+[role=banner].m--pink .branding:focus,
+[role=banner].m--pink .branding:active {
+    color: color('white');
+}
+
+@media #{query('m', 'max')} {
+    [role=banner].m--mobile-block .branding:hover,
+    [role=banner].m--mobile-block .branding:focus,
+    [role=banner].m--mobile-block .branding:active {
+        color: color('brown', 'dark');
+        opacity: .5;
+    }
+}
+
+.branding__logo {
+    fill: currentColor;
+    height: rem(80);
+    vertical-align: middle;
+    width: rem(80);
+}
+
+.branding__wordmark {
+    @include is-visually-hidden;
+}
+
+@media #{query('m')} {
+    .branding {
+        left: 50%;
+        position: absolute;
+        top: 0;
+        transform: translateX(-50%);
+        width: rem(102);
+    }
+
+    .branding__logo {
+        height: rem(102);
+        width: rem(102);
+    }
+}
+
+
+
+
+//   @site-nav
+// --------------------------------------------------------
+//  Main Site Navigation
+// --------------------------------------------------------
+
+[role=navigation] {
+    @include font-size('xs');
+
+    padding: spacing('m') 0;
+}
+
+// .site-nav {
+//
+// }
+
+.site-nav__list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.site-nav li {
+    flex: 0 0 auto;
+}
+
+.site-nav a {
+    color: inherit;
+    position: relative;
+    text-decoration: none;
+    transition: all .3s ease-in-out;
+}
+
+.site-nav a.is-active,
+.site-nav a:hover,
+.site-nav a:focus,
+.site-nav a:active {
+    color: color('brown', 'dark');
+}
+
+[role=banner].is-scrolled .site-nav a:hover,
+[role=banner].is-scrolled .site-nav a:focus,
+[role=banner].is-scrolled .site-nav a:active {
+    color: color('brown', 'dark');
+    opacity: .5;
+}
+
+[role=banner].m--pink .site-nav a.is-active,
+[role=banner].m--pink .site-nav a:hover,
+[role=banner].m--pink .site-nav a:focus,
+[role=banner].m--pink .site-nav a:active {
+    color: color('warm-red', 'dark');
+}
+
+@media #{query('m', 'max')} {
+    [role=banner].m--mobile-block .site-nav a:hover,
+    [role=banner].m--mobile-block .site-nav a:focus,
+    [role=banner].m--mobile-block .site-nav a:active {
+        color: color('brown', 'dark');
+        opacity: .5;
+    }
+}
+
+.site-nav a.is-active::after {
+    background-image: repeating-linear-gradient( 135deg,
+        currentColor 3px, currentColor 8px,
+        transparent 8px, transparent 13px
+    );
+    content: '';
+    height: 4px;
+    left: 50%;
+    margin-top: 12px;
+    position: absolute;
+    top: 100%;
+    transform: translateX(-50%);
+    width: 100%;
+}
+
+@media #{query('700px', 'max')} {
+    .site-nav a span {
+        display: none;
+    }
+
+    .site-nav a span + span {
+        display: inline;
+    }
+}
+
+@media #{query('701px')} {
+    .site-nav a span + span {
+        display: none;
+    }
+}
+
+@media #{query('m')} {
+    [role=navigation] {
+        padding: rem(56) 0;
+    }
+
+    .site-nav li {
+        flex-basis: 20%;
+    }
+
+    .site-nav li:nth-child(3) {
+        flex-grow: 1;
+    }
+
+    .site-nav li:nth-child(n+3) {
+        text-align: right;
+    }
+}

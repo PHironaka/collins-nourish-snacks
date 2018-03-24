@@ -1,0 +1,28 @@
+//
+//   @heroes
+// --------------------------------------------------------
+//  _4_modules/_heroes.scss
+// --------------------------------------------------------
+//
+//  Just your everyday, normal hero.
+//
+// --------------------------------------------------------
+
+.hero {
+    color: color('brown', 'dark');
+    padding-top: 0 !important;
+}
+
+.hero__item {
+    width: 100%;
+}
+
+.hero__item a {
+    display: block;
+}
+
+.hero__item picture,
+.hero__item img {
+    height: auto;
+    width: 100%;
+}

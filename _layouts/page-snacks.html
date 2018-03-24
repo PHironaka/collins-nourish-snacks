@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+
+  {% include head.html %}
+
+  <body>
+
+    {% include header.html %}
+
+    <main class="site-main">
+
+      {% if page.carousel_slides.size > 0 %}
+      {% include carousel.html %}
+      {% endif %}
+
+      {% if site.snacks.size > 0 %}
+      <section class="section snacks js-scrolled-trigger">
+        <div class="container">
+          <ul class="snacks__list grid"><!--
+            {% assign snacks = site.snacks | sort: 'position' %}
+            {% for item in snacks %}-->{% include snack.html %}<!--{% endfor %}
+       --></ul>
+        </div>
+      </section>
+      {% endif %}
+
+    </main>
+
+    {% include footer.html %}
+
+  </body>
+
+</html>

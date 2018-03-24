@@ -1,0 +1,29 @@
+// Determines the path of a static asset based
+// on the existence of `$BUILDSTAMP`.
+//
+// @return {String} Absolute path to asset
+@function http-url($asset-type) {
+    $static-dir: 'static' !default;
+
+    @if (global-variable-exists(BUILDSTAMP)) {
+        @return "/#{$BUILDSTAMP}/#{$asset-type}";
+    } @elseif ($static-dir == '') {
+        @return "/#{$asset-type}";
+    } @else {
+        @return "/#{$static-dir}/#{$asset-type}";
+    }
+}
+
+// Returns absolute path to font asset
+@function font-url($filename) {
+    $font-dir: 'fonts' !default;
+
+    @return unquote("url(#{http-url($font-dir)}/#{$filename})");
+}
+
+// Returns absolute path to image asset
+@function image-url($filename) {
+    $images-dir: 'images' !default;
+
+    @return unquote("url(#{http-url($images-dir)}/#{$filename})");
+}

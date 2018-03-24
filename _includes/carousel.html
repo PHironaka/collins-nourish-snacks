@@ -1,0 +1,15 @@
+<section class='hero{% if page.carousel_slides.size > 1 %} js-flickity' data-flickity-options='{ "wrapAround": true, "imagesLoaded": true, "pageDots": false, "prevNextButtons": true, "arrowShape": "M14.13 47.458h85.863v5.084H14.13m0 11.58L.006 50 14.13 35.878v28.244z" }{% endif %}'>
+<!-- M5.19 8.73h9.12v.54H5.19m0 1.23L3.69 9l1.5-1.5v3z -->
+  {% for slide in page.carousel_slides %}
+  <div class="hero__item">
+    <a href="{{ slide.url }}">
+      <picture>
+        {% if slide.large_image != '' %}<source srcset="{{ slide.large_image }}" media="(min-width: 769px)">{% endif %}
+        {% if slide.medium_image != '' %}<source srcset="{{ slide.medium_image }}" media="(min-width: 480px)">{% endif %}
+        <img srcset="{{ slide.small_image }}" alt="{{ slide.title }}">
+      </picture>
+      <h2 class="is-visually-hidden">{{ slide.title }}</h2>
+    </a>
+  </div>
+  {% endfor %}
+</section>
