@@ -1,0 +1,47 @@
+//
+//   @site-main
+// --------------------------------------------------------
+//  _4_modules/_site-main.scss
+// --------------------------------------------------------
+//
+//  main content
+//
+// --------------------------------------------------------
+
+main {
+    background: $body-color;
+    color: $text-color;
+}
+
+// header padding
+
+main > :first-child {
+    padding-top: rem(176);
+
+    @media #{query('m')} {
+        padding-top: rem(132);
+    }
+}
+main > .section:first-child {
+    padding-top: rem(176) + spacing('m') + spacing('s');
+
+    @media #{query('m')} {
+        padding-top: rem(132) + spacing('m') + spacing('l');
+    }
+}
+main > .snack-header:first-child {
+    padding-top: rem(176);
+
+    @media #{query('m')} {
+        padding-top: rem(132);
+    }
+}
+
+@media #{query('m', 'max')} {
+    [role=banner].m--mobile-block + main > :first-child {
+        padding-top: 0;
+    }
+    [role=banner].m--mobile-block + main > .section:first-child {
+        padding-top: spacing('m');
+    }
+}

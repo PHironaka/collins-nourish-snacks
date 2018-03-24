@@ -1,0 +1,155 @@
+.about {
+  @include spacing('xxl');
+}
+
+.about-section {
+  @include spacing('xl', 'padding', 'both');
+
+  overflow: hidden;
+}
+
+.about p {
+  @include spacing('s');
+  @include font-size('ms');
+}
+
+.about em {
+  @include serif-xs;
+
+  font-style: normal;
+}
+
+.about h2 {
+  @include font-size('l');
+  @include serif-xl;
+
+  text-transform: uppercase;
+}
+
+.about a,
+.about a:visited,
+.about a:focus,
+.about a:active {
+  @extend .orange;
+}
+
+.about a:hover {
+  @extend .white;
+}
+
+.about a:visited {
+  @extend .orange;
+}
+
+.about a.about__section-anchor {
+  color: inherit;
+}
+
+.about a.about__section-anchor:hover {
+  color: inherit;
+}
+
+.about__main-text {
+  @include spacing('m', 'padding', 'top');
+}
+
+.about__two-columns {
+  @include spacing('s');
+  columns: 2 300px;
+  column-gap: map-get($spacing, 'l');
+}
+
+.about__founder-video-container {
+  @include spacing('l');
+  @include aspect-ratio(16, 9);
+
+  position: relative;
+  width: 100%;
+}
+
+.about__founder-video {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.about__opener-icons {
+  cursor: pointer;
+  display: none;
+}
+
+.about__opener-icons svg {
+  width: 23px;
+  height: 23px;
+}
+
+.about__faq-body > .about__sub-header:first-child {
+  margin-top: -3px;
+}
+
+@media #{query('m', 'max')} {
+  .about__opener-icon-closed, .about__opener-icon-opened {
+    display: none;
+  }
+
+  .about__opener-icons.closed .about__opener-icon-closed {
+    display: block;
+  }
+
+  .about__opener-icons.opened .about__opener-icon-opened {
+    display: block;
+  }
+
+  .about__faq-body ul {
+    @include spacing('l');
+  }
+
+  .about__faq-body ul:last-child {
+    margin: 0;
+  }
+
+  .about__opener-items.closed {
+    @include spacing('m');
+    height: 0;
+    overflow: hidden;
+  }
+
+  .about__opener-items.opened {
+    height: auto;
+  }
+
+  .about__opener-icons {
+    display: block;
+    float: right;
+  }
+}
+
+
+.about__violet-links a {
+  @extend .violet-dark;
+}
+
+.about__turquoise-links a {
+  @extend .turquoise-light;
+}
+
+.about .about__sub-header {
+  @include spacing('xs');
+}
+
+.about__list-item p {
+  @include serif-xs;
+}
+
+.about__list-item p:first-of-type {
+  @include serif;
+  margin-bottom: 0;
+}
+
+.about__list-item:last-child > p:last-child {
+  @include spacing('l');
+}

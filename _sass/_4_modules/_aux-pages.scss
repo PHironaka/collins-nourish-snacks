@@ -1,0 +1,48 @@
+.aux-page {
+  @include spacing('xxl');
+}
+
+.aux-page a,
+.aux-page a:visited,
+.aux-page a:focus,
+.aux-page a:active {
+  @extend .turquoise-light;
+}
+
+.aux-page a:hover {
+  @extend .white;
+}
+
+.aux-page h2 {
+  @include font-size('l');
+  @include serif-xl;
+
+  text-transform: uppercase;
+}
+
+.aux-page p {
+  @include spacing('s');
+  @include font-size('ms');
+  @include serif-s;
+}
+
+.aux-page__privacy p {
+  @extend .warm-red-light;
+}
+
+.aux-page__terms p {
+  @extend .violet-dark;
+}
+
+.four-o-four .container {
+  @include spacing('xxl', 'margin', 'both');
+}
+
+.four-o-four h1 {
+  text-transform: capitalize;
+}
+
+.four-o-four h2 {
+  @include spacing('m', 'margin');
+  text-align: center;
+}

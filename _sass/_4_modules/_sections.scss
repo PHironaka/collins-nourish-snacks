@@ -1,0 +1,30 @@
+//
+//   @sections
+// --------------------------------------------------------
+//  _5_modules/_sections.scss
+// --------------------------------------------------------
+//
+//  Page sections
+//
+// --------------------------------------------------------
+
+.section {
+    // @include spacing('m', 'padding');
+    padding: spacing('m') 0;
+}
+
+.section--spaced {
+    padding: spacing('xl') 0;
+}
+
+.section--tight {
+    padding: 0;
+}
+
+.section--tight-top {
+    padding-top: 0;
+}
+
+.section--tight-bottom {
+    padding-bottom: 0;
+}

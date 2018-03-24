@@ -1,0 +1,8 @@
+.page__title {
+  @include font-size('xxl');
+  @include spacing('xxl', 'margin');
+  @include serif-xl;
+
+  text-align: center;
+  text-transform: uppercase;
+}

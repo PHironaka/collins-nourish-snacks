@@ -1,0 +1,126 @@
+//
+//   @site-footer
+// --------------------------------------------------------
+//  _5_sections/_site-footer.scss
+// --------------------------------------------------------
+//
+//  The site's footer
+//
+//  This is currently set up with the assumption that there
+//  will be 2 navs and a credits area.
+//
+// --------------------------------------------------------
+
+[role=contentinfo] {
+    @include font-size('xxs');
+    @include spacing('l', 'padding');
+}
+
+@media #{query('840px')} {
+    [role=contentinfo] > .container {
+        align-items: center;
+        display: flex;
+    }
+}
+
+
+
+
+//   @site-credits
+// --------------------------------------------------------
+//  The credits section of the site
+// --------------------------------------------------------
+
+.site-credits {
+    margin-bottom: spacing('xxs');
+
+    @media #{query('840px')} {
+        margin-bottom: 0;
+    }
+}
+
+
+
+
+//   @site-footer__primary-nav
+// --------------------------------------------------------
+//  The primary navigation in the footer
+// --------------------------------------------------------
+
+.site-footer__primary-nav {
+    margin-bottom: spacing('xxs');
+
+    @media #{query('840px')} {
+        border-left: 1px solid currentColor;
+        margin-bottom: 0;
+        margin-left: spacing('xxs');
+        padding-left: spacing('xxs');
+    }
+}
+
+.site-footer__primary-nav li {
+    border-right: 1px solid currentColor;
+    display: inline-block;
+    margin-right: spacing('xxs');
+    padding-right: spacing('xxs');
+}
+
+.site-footer__primary-nav li:last-child {
+    border-right: 0;
+    margin-right: 0;
+    padding-right: 0;
+}
+
+.site-footer__primary-nav a {
+    color: inherit;
+    text-decoration: none;
+    transition: opacity .3s ease-in-out;
+}
+
+.site-footer__primary-nav a:hover,
+.site-footer__primary-nav a:focus,
+.site-footer__primary-nav a:active {
+    opacity: .7;
+}
+
+
+
+
+//   @.social-nav
+// --------------------------------------------------------
+//  The social navigation in the footer
+// --------------------------------------------------------
+
+.social-nav {
+    @media #{query('840px')} {
+        flex: 1 1 auto;
+        text-align: right;
+    }
+}
+
+.social-nav li {
+    display: inline-block;
+}
+
+.social-nav li + li {
+    margin-left: rem(6);
+}
+
+.social-nav a {
+    color: inherit;
+    font-size: 1px;
+    transition: all .3s ease-in-out;
+    vertical-align: text-bottom;
+}
+
+.social-nav a:hover,
+.social-nav a:focus,
+.social-nav a:active {
+    opacity: .5;
+}
+
+.social-nav__icon {
+    fill: currentColor;
+    height: rem(32);
+    width: rem(32);
+}

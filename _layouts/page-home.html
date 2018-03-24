@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+
+  {% include head.html %}
+
+  <body>
+
+    {% include header.html %}
+
+    <main class="site-main">
+
+      {% if page.carousel_slides.size > 0 and page.carousel_slides.first.small_image != '' %}
+      {% include carousel.html %}
+      {% endif %}
+
+      {% if page.snack.size > 0 %}
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" style="display: none;">
+        <defs><path id="bites-path" d="M40,200 a160,160 0 1,1 320,0 a150,150 0 1,1 -320,0" /> </defs>
+      </svg>
+      <section class="section section--spaced bites js-scrolled-trigger">
+        <div class="container container--full">
+
+          <ul class="bites__grid grid grid--center"><!--
+          {% for bite in page.snack %}
+            {% assign bites = site.snacks | where:"title",bite %}
+            {% for item in bites %}-->{% include bite.html %}<!--{% endfor %}
+          {% endfor %}
+       --></ul>
+        </div>
+        <style>
+          {% assign snackbite = site.snacks | where:"title",page.snack.first | first %}
+          .bites {
+            background: {{ snackbite.primary_color }};
+            color: {{ snackbite.secondary_color }};
+          }
+
+          .mission {
+            color: {{ snackbite.primary_color }};
+          }
+
+          .mission strong {
+            color: {{ snackbite.secondary_color }};
+          }
+        </style>
+      </section>
+      {% endif %}
+
+      <section class="section mission">
+        <div class="container">
+          {{ content }}
+        </div>
+      </section>
+
+      {% if page.snacks.size > 0 %}
+      <section class="section section--tight-top snacks">
+        <div class="container">
+          <h2 class="snacks__title">Snacks You’ll Love</h2>
+
+          <ul class="snacks__list grid"><!--
+          {% for snack in page.snacks %}
+            {% assign snacks = site.snacks | where:"title",snack %}
+            {% for item in snacks %}-->{% include snack.html %}<!--{% endfor %}
+          {% endfor %}
+       --></ul>
+        </div>
+      </section>
+      {% endif %}
+
+    </main>
+
+    {% include footer.html %}
+
+  </body>
+
+</html>

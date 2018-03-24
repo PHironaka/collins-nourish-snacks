@@ -1,0 +1,82 @@
+//
+//   @bites
+// --------------------------------------------------------
+//  _5_modules/_bites.scss
+// --------------------------------------------------------
+//
+//  Granola bites section of the home page.
+//
+// --------------------------------------------------------
+
+.bites {
+    background: color('warm-red', 'light');
+    color: color('violet', 'dark');
+    transition: all .3s ease-in-out;
+}
+
+.bites__grid::after { // carousel for mobile
+    content: 'flickity';
+    display: none;
+
+    @media #{query('m')} {
+        content: '';
+    }
+}
+
+.bite {
+    display: inline-block;
+    max-width: 100%;
+    width: 275px;
+}
+
+a.bite__link { // added the element to override cascade for hover, focus, etc
+    color: inherit;
+    display: block;
+    height: 0;
+    padding-top: 100%;
+    position: relative;
+    width: 100%;
+}
+
+.bite__link svg {
+    animation: rotating 10s linear infinite;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+.bite__link textPath {
+    @include serif-xl;
+
+    fill: currentColor;
+    font-size: 26px;
+    text-transform: uppercase;
+}
+
+.bite__link tspan {
+    @include serif-s;
+
+    fill: color('white');
+    font-size: .9em;
+}
+
+.bite__link:hover svg,
+.bite__link.is-hovered svg {
+    animation-play-state: paused;
+}
+
+.bite__img {
+    animation: rotating 3s linear infinite reverse;
+    animation-play-state: paused;
+    height: 80%;
+    left: 10%;
+    position: absolute;
+    top: 10%;
+    width: 80%;
+}
+
+.bite:hover .bite__img {
+    animation-play-state: running;
+}

@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+
+  {% include head.html %}
+
+  <body>
+
+    {% include header.html %}
+
+    <main class="site-main">
+
+      <section class="section snack-header"{% if page.header_top_color != "" and page.header_bottom_color != "" %} style="background-color: {{ page.header_top_color }}; background-image: linear-gradient(168deg, {{ page.header_top_color }} 49.95%, {{ page.header_bottom_color }} 50.05%);"{% endif %}>
+        <div class="container">
+
+          <div class="snack-header__images"{% if page.header_top_color != "" and page.header_bottom_color != "" %} style="background-color: {{ page.header_top_color }}; background-image: linear-gradient(168deg, {{ page.header_top_color }} 49.95%, {{ page.header_bottom_color }} 50.05%);"{% endif %}>
+            <div class="container">
+              <div class="snack-header__carousel js-flickity" data-flickity-options='{ "wrapAround": true, "pageDots": true, "prevNextButtons": false, "imagesLoaded": true }'>
+                {% if page.secondary_images.size > 0 %}
+                  {% for image in page.secondary_images %}
+                  <div class="snack-header__image">
+                    <img src="{{ image }}" alt="{{ page.title }}">
+                  </div>
+                  {% endfor %}
+                {% else %}
+                  <div class="snack-header__image">
+                    <img src="/images/placeholder.png" alt="{{ page.title }}">
+                  </div>
+                {% endif %}
+              </div>
+            </div>
+          </div><!--
+       --><div class="snack-header__details">
+            <div class="container">
+              <h1 class="snack-header__title">{{ page.title }}</h1>
+              <h2 class="snack-header__subtitle">{{ page.sub_header }}</h2>
+              <div class="snack-header__text text">
+                {{ content | markdownify }}
+              </div>
+              {% if page.buy_link != '' %}
+              <a href="{{ page.buy_link }}" target="_blank" role="button" class="snack-header__buy">I’m Hungry</a>
+              {% endif %}
+            </div>
+          </div>
+
+        </div>
+      </section>
+
+      <section class="section snack__nutrition js-scrolled-trigger">
+        <div class="container">
+          <div class="grid">
+            <div class="grid__item medium--one-third">
+              <h2 class="snack__title">Nutrition Facts</h2>
+
+              <div class="snack__item">
+                <h3 class="snack__subtitle">Ingredient List</h3>
+                <div class="snack__text text">
+                  {{ page.ingredient_list_text | markdownify | smartify }}
+                </div>
+              </div>
+
+              <div class="snack__item">
+                <h3 class="snack__subtitle">Serving Size</h3>
+                <div class="snack__text text">
+                  {{ page.serving_size_text | markdownify | smartify }}
+                </div>
+              </div>
+            </div><!--
+
+         --><div class="grid__item medium--two-thirds">
+              <h2 class="snack__title is-visually-hidden--medium">Every Ingredient has a Purpose:</h2>
+
+              <div class="snack__ingredients js-toggle" data-toggle-trigger="Additional Ingredient Info">
+              {% for ingredient in page.ingredient_items %}
+                <div class="snack__item">
+                  <h3 class="snack__subtitle">{{ ingredient.ingredient_name }}</h3>
+                  <div class="snack__text text">
+                    {{ ingredient.ingredient_description | markdownify | smartify }}
+                  </div>
+                </div>
+              {% endfor %}
+              </div>
+            </div>
+        </div>
+      </section>
+      <style>
+        {% if page.primary_color != '' %}
+        .snack-header__title,
+        .snack__title,
+        .snack__text a {
+          color: {{ page.primary_color }};
+        }
+        {% endif %}
+        {% if page.secondary_color != '' %}
+        .snack__text a:focus,
+        .snack__text a:hover,
+        .snack__text a:active {
+          color: {{ page.secondary_color }};
+        }
+        {% endif %}
+      </style>
+
+      {% if page.snacks.size > 0 %}
+      <section class="section snacks">
+        <div class="container">
+          <h2 class="snacks__title">Other Snacks You’ll Love</h2>
+
+          <ul class="snacks__list grid"><!--
+          {% for snack in page.snacks %}
+            {% assign snacks = site.snacks | where:"title",snack %}
+            {% for item in snacks %}-->{% include snack.html %}<!--{% endfor %}
+          {% endfor %}
+       --></ul>
+        </div>
+      </section>
+      {% endif %}
+
+    </main>
+
+    {% include footer.html %}
+
+  </body>
+
+</html>

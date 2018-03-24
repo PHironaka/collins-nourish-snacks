@@ -1,0 +1,49 @@
+---
+---
+
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+  {% include head.html %}
+
+  <body>
+
+    {% include header.html %}
+    <main class="site-main">
+      <section id="four-o-four" class="four-o-four section aux-page yellow-light">
+        <div class="container">
+          <h1 class="page__title">404 Error</h1>
+          <h2 id="four-o-four__text">aoeusnthsnthaosenuhtaoe</h2>
+          <h2><a href="/snacks" class="yellow-light">Check out Our Snacks</a></h2>
+        </div>
+      </section>
+    </main>
+  </body>
+
+  <script>
+    function getRandomArbitrary(min, max) {
+      return Math.floor(Math.random() * (max - min)) + min;
+    }
+
+    var colors = [
+      {
+        bg: ' bg-warm-red-light',
+        text: 'You’re on the wrong page,<br/> And you’re probably hungry.<br/> We can help with both.'
+      },
+      {
+        bg: ' bg-turquoise',
+        text: 'Womp womp... sad trombone.<br/>You’re on the wrong page.<br/> Time for a snack break!'
+      },
+      {
+        bg: ' bg-violet-light',
+        text: 'You took a wrong turn!<br/> You must be delirious...<br/> from hunger, of course.'
+      }
+    ]
+    var sectionEl = document.getElementById('four-o-four');
+    var textEl = document.getElementById('four-o-four__text');
+    var index = getRandomArbitrary(0, colors.length);
+
+    sectionEl.className += colors[index].bg;
+    textEl.innerHTML = colors[index].text;
+  </script>
+
+</html>

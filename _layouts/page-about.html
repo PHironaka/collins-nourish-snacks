@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+
+  {% include head.html %}
+
+  <body>
+
+    {% include header.html %}
+
+    <main class="site-main about js-scrolled-trigger">
+      <section class="section about-section about-promise bg-violet-dark turquoise-light about__turquoise-links">
+        <div class="container">
+          <a class="about__section-anchor" name="promise">
+            <h1 class="page__title">
+              The Nourish Promise
+            </h1>
+          </a>
+          <div class="about__main-text about__two-columns">
+            {{ page['promise'] | markdownify }}
+          </div>
+        </div>
+      </section>
+
+      <section class="section about-section about-hello bg-turquoise-light violet-dark about__violet-links">
+        <div class="container">
+          <a class="about__section-anchor" name="hello">
+            <h1 class="page__title">
+              Say Hello to Joy
+            </h1>
+          </a>
+          {% if page.has_video %}
+            <div class="about__founder-video-container">
+              <iframe class="aspect-content about__founder-video" width="560" height="315" src="{{page['video_url']}}" frameborder="0" allowfullscreen></iframe>
+            </div>
+          {% endif %}
+
+          <div class="about__two-columns">
+            {{ page['say_hello'] | markdownify }}
+          </div>
+        </div>
+      </section>
+
+      <section class="section about-section about-beliefs bg-violet-dark turquoise-light about__turquoise-links">
+        <div class="container">
+          <a class="about__section-anchor" name="beliefs">
+            <h1 class="page__title">
+              Our Beliefs
+            </h1>
+          </a>
+
+          <div class="giving__list grid">
+            <div class="giving__item grid__item medium--one-half">
+              <h2 class="about__sub-header">Purposeful Ingredients</h2>
+              {{ page['purposeful_ingredients'] | markdownify }}
+            </div><div class="giving__item grid__item medium--one-half">
+              <h2 class="about__sub-header">It's Nutrition Science</h2>
+              {{ page['nutrition_science'] | markdownify }}
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section about-section about-faq bg-turquoise-light violet-dark about__violet-links">
+        <div class="container">
+          <a class="about__section-anchor" name="faq">
+            <h1 class="page__title">
+              How Can We Help?
+            </h1>
+          </a>
+          <div class="about__two-columns about__faq-body">
+            <h2 class="about__sub-header">Snacks</h2>
+            <ul>
+              {% for item in page['faq_snacks'] %}
+                <li class="about__list-item">
+                  {{item.question | markdownify }}
+                  {{item.answer | markdownify }}
+                </li>
+              {% endfor %}
+            </ul>
+
+            <h2 class="about__sub-header">Partnerships
+              <div class="about__opener-icons closed">
+                <div class="about__opener-icon-closed"><svg width="104px" height="104px" viewBox="0 0 104 104" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"> <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">  <g id="Group" transform="translate(2.000000, 2.000000)" stroke="currentColor" stroke-width="4"><circle id="Oval" cx="50" cy="50" r="50"></circle><path d="M51,23.5 L51,77.7309875" id="Line" stroke-linecap="square"></path><path d="M77.2309875,50 L23,50" id="Line" stroke-linecap="square"></path>  </g> </g></svg></div>
+                <div class="about__opener-icon-opened"><svg width="104px" height="104px" viewBox="0 0 104 104" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">        <g id="Group" transform="translate(2.000000, 2.000000)" stroke="currentColor" stroke-width="4">            <circle id="Oval" cx="50" cy="50" r="50"></circle>            <path d="M77.2309875,50 L23,50" id="Line" stroke-linecap="square"></path>        </g>    </g></svg></div>
+              </div>
+            </h2>
+            <ul class="about__opener-items closed">
+              {% for item in page['faq_partnerships'] %}
+                <li class="about__list-item">
+                  {{item.question | markdownify }}
+                  {{item.answer | markdownify }}
+                </li>
+              {% endfor %}
+            </ul>
+
+            <h2 class="about__sub-header">Buying Snacks
+              <div class="about__opener-icons closed">
+                <div class="about__opener-icon-closed"><svg width="104px" height="104px" viewBox="0 0 104 104" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"> <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">  <g id="Group" transform="translate(2.000000, 2.000000)" stroke="currentColor" stroke-width="4"><circle id="Oval" cx="50" cy="50" r="50"></circle><path d="M51,23.5 L51,77.7309875" id="Line" stroke-linecap="square"></path><path d="M77.2309875,50 L23,50" id="Line" stroke-linecap="square"></path>  </g> </g></svg></div>
+                <div class="about__opener-icon-opened"><svg width="104px" height="104px" viewBox="0 0 104 104" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">        <g id="Group" transform="translate(2.000000, 2.000000)" stroke="currentColor" stroke-width="4">            <circle id="Oval" cx="50" cy="50" r="50"></circle>            <path d="M77.2309875,50 L23,50" id="Line" stroke-linecap="square"></path>        </g>    </g></svg></div>
+              </div>
+            </h2>
+            <ul class="about__opener-items closed">
+              {% for item in page['faq_buying_snacks'] %}
+                <li class="about__list-item">
+                  {{item.question | markdownify }}
+                  {{item.answer | markdownify }}
+                </li>
+              {% endfor %}
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section name="giving" class="section about-section about-us bg-violet-dark turquoise-light about__turquoise-links">
+        <div class="container">
+          <a class="about__section-anchor" name="giving">
+            <h1 class="page__title">
+              Giving Back
+            </h1>
+          </a>
+
+          <div class="giving__list grid">{%
+            for item in site.giving
+          %}<div class="giving__item grid__item medium--one-half about__list-item">
+              <img class="giving__image" src="{{ item.main_image }}" alt="{{ item.title }}" />
+            </div><div class="giving__item grid__item medium--one-half about__list-item">
+              <p>{{ item.title }}</p>
+              {{ item.main_text | markdownify }}
+            </div>{%
+            endfor
+          %}</div>
+        </div>
+      </section>
+
+      <section class="section about-section about-us bg-turquoise-light violet-dark about__violet-links">
+        <div class="container">
+          <a class="about__section-anchor" name="contact">
+            <h1 class="page__title">
+              Contact Us
+            </h1>
+          </a>
+          <div class="grid">
+            <div class="grid__item medium--one-half">
+              <h2>General Questions</h2>
+              <p>
+                {{ page['general_questions_text'] | markdownify }}
+              </p>
+            </div><div class="grid__item medium--one-half">
+              <h2>Nourish Careers</h2>
+              <p>
+                {{ page['careers_text'] | markdownify }}
+              </p>
+            </div>
+          </div>
+
+        </div>
+      </section>
+
+    </main>
+
+    {% include footer.html %}
+
+  </body>
+
+</html>

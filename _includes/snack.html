@@ -1,0 +1,21 @@
+<li class="snacks__item grid__item medium--one-third">
+  {% assign sub_header = item.sub_header | downcase | rstrip %}
+  {% if sub_header == "coming soon" %}
+  <div class="snacks__link snacks__link--gray">
+  {% else %}
+  <a href="{{ item.url }}" class="snacks__link">
+  {% endif %}
+    <div class="snacks__image-wrap">
+      <img src="{% if item.main_image != '' %}{{ item.main_image }}{% else %}/images/placeholder.png{% endif %}" alt="{{ item.title }}" class="snacks__image">
+      {% if item.hover_image != '' %}
+      <div class="snacks__image-hover" style="background-image: url('{{ item.hover_image }}');"></div>
+      {% endif %}
+    </div>
+    <h3 class="snacks__header"{% if item.primary_color != '' %} style="color: {{ item.primary_color }};"{% endif %}>{{ item.title }}</h3>
+    <h4 class="snacks__subheader">{{ item.sub_header }}</h4>
+  {% if sub_header == "coming soon" %}
+  </div>
+  {% else %}
+  </a>
+  {% endif %}
+</li>

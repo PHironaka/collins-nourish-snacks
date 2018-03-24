@@ -1,0 +1,49 @@
+//
+//   @quotes
+// --------------------------------------------------------
+//  _3_elements/_quotes.scss
+// --------------------------------------------------------
+//
+//  Blockquotes and pull quotes
+//
+// --------------------------------------------------------
+
+
+
+
+//
+//   @blockquote
+// --------------------------------------------------------
+//  Example:
+//  <blockquote>
+//    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+//  </blockquote>
+// --------------------------------------------------------
+
+blockquote {
+    @include margin-container;
+
+    border-left: 4px solid currentColor;
+    margin-bottom: 1.5em;
+    margin-left: .5em;
+    padding-left: 1.5em;
+}
+
+
+
+
+
+//
+//   @pull-quote
+// --------------------------------------------------------
+//  Large quotes pulled from body text
+//
+//  Example:
+//  <blockquote class="pull-quote">
+//    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum</p>
+//  </blockquote>
+// --------------------------------------------------------
+
+// .pull-quote {
+//
+// }

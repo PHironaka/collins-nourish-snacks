@@ -1,0 +1,109 @@
+//
+//   @snacks
+// --------------------------------------------------------
+//  _5_sections/_snacks.scss
+// --------------------------------------------------------
+//
+//  Individual snacks
+//
+// --------------------------------------------------------
+
+.snacks {
+
+}
+
+.snacks__title {
+    @include serif-s;
+    @include font-size('l');
+
+    border-bottom: 1px solid currentColor;
+    color: color('gray', 'dark');
+    margin-bottom: $gutter;
+    padding-bottom: rem(22);
+    text-transform: uppercase;
+}
+
+.snacks__item {
+    margin-bottom: $gutter;
+    overflow: hidden;
+}
+
+
+
+
+.snacks__link {
+    @include font-size('ms');
+
+    color: color('brown', 'dark');
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.snacks__link:hover,
+.snacks__link:focus,
+.snacks__link:active {
+    color: color('brown', 'dark');
+}
+
+.snacks__link--gray {
+    color: color('gray');
+}
+
+.snacks__link--gray:hover,
+.snacks__link--gray:focus,
+.snacks__link--gray:active {
+    color: color('gray');
+}
+
+.snacks__header {
+    @include serif-xl;
+
+    font-size: inherit;
+    line-height: .9167;
+}
+
+.snacks__subheader {
+    @include serif-s;
+
+    font-size: inherit;
+    line-height: 1;
+}
+
+
+
+
+.snacks__image-wrap {
+    @include spacing('xs');
+
+    background-color: color('silver');
+    height: 0;
+    overflow: hidden;
+    padding-top: 100%;
+    position: relative;
+    width: 100%;
+}
+
+.snacks__image {
+    @include center(false);
+
+    height: auto;
+    max-height: 100%;
+    max-width: 100%;
+    position: absolute;
+    width: auto;
+}
+
+.snacks__image-hover {
+    @include cover;
+
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+    opacity: 0;
+    transition: opacity .3s ease-in-out;
+}
+
+    .snacks__link:hover .snacks__image-hover,
+    .snacks__link:focus .snacks__image-hover {
+        opacity: 1;
+    }
