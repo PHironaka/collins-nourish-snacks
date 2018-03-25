@@ -76,6 +76,9 @@ defaults:
 plugins:
 - jekyll-autoprefixer
 - jekyll-paginate
+- jekyll/tagging
+tag_page_layout: tag
+tag_page_dir: snacks/tags
 permalink: pretty
 paginate: 24
 paginate_path: "/posts/page:num/"
