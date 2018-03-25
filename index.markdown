@@ -39,7 +39,7 @@ snacks:
 new-snacks:
 - Chocolate Penut Butter
 - Blueberry Apple
-- New Snack
+- Double Chocolate
 layout: page-home
 ---
 
