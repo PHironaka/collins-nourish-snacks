@@ -78,11 +78,7 @@ plugins:
 - jekyll-paginate
 - jekyll/tagging
 tag_page_layout: tag
-<<<<<<< HEAD
 tag_page_dir: snacks/tags
-=======
-tag_page_dir: "/"
->>>>>>> d9de2a081f9c5ea6cb165cdda8eb7e16341e149d
 permalink: pretty
 paginate: 24
 paginate_path: "/posts/page:num/"
