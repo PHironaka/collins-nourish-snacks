@@ -2,6 +2,8 @@
 title: Chocolate Banana
 date: 2017-04-13 21:22:00 Z
 position: 0
+tags:
+- new
 sub_header: Chewy Granola Bites
 short_sub_header: Granola Bites
 buy_link: http://amzn.to/2s9ZVPB

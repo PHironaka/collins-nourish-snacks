@@ -58,12 +58,31 @@
         <div class="container">
           <h2 class="snacks__title">New Snacks</h2>
 
-          <ul class="snacks__list grid"><!--
-          {% for snack in page.snacks %}
-            {% assign snacks = site.snacks | where:"title",snack %}
-            {% for item in snacks %}-->{% include snack.html %}<!--{% endfor %}
-          {% endfor %}
-       --></ul>
+          <ul class="snacks__list grid">
+            
+            <li class="snacks__item grid__item medium--one-third">
+  {% assign sub_header = item.sub_header | downcase | rstrip %}
+  {% if sub_header == "coming soon" %}
+  <div class="snacks__link snacks__link--gray">
+  {% else %}
+  <a href="{{ snack.url }}" class="snacks__link">
+  {% endif %}
+    <div class="snacks__image-wrap">
+      <img src="{% if item.main_image != '' %}{{ item.main_image }}{% else %}/images/placeholder.png{% endif %}" alt="{{ item.title }}" class="snacks__image">
+      {% if item.hover_image != '' %}
+      <div class="snacks__image-hover" style="background-image: url('{{ item.hover_image }}');"></div>
+      {% endif %}
+    </div>
+    <h3 class="snacks__header"{% if item.primary_color != '' %} style="color: {{ item.primary_color }};"{% endif %}>{{ snack.title }}</h3>
+    <h4 class="snacks__subheader">{{ item.sub_header }}</h4>
+  {% if sub_header == "coming soon" %}
+  </div>
+  {% else %}
+  </a>
+  {% endif %}
+</li>
+
+          </ul>
         </div>
       </section>
       {% endif %}
