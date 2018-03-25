@@ -74,6 +74,10 @@ snacks:
 - Chocolate Peanut Butter
 - Coconut Vanilla
 - Blueberry Apple
+new-snacks:
+- Chocolate Penut Butter
+- Blueberry Apple
+- Double Chocolate
 ---
 
 This bag you’re gazing at is a delicious duet of nourishment and indulgence. Created by our founder and nutritionist, Joy Bauer, these Chocolate Banana Granola Bites are a melody of whole grain oats, chia, banana & chocolate. That sound? Your mind, body and taste buds serenading you for more.

@@ -69,7 +69,7 @@ snacks:
 new-snacks:
 - Chocolate Penut Butter
 - Blueberry Apple
-- New Snack
+- Double Chocolate
 ---
 
 Go with your gut. It knows our Chocolate Peanut Butter Granola Bites are delicious and good for you. 

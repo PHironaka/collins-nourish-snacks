@@ -66,6 +66,10 @@ snacks:
 - Blueberry Apple
 - Coconut Vanilla
 - Chocolate Peanut Butter
+new-snacks:
+- Chocolate Penut Butter
+- Blueberry Apple
+- Double Chocolate
 ---
 
 Studies show eating chocolate can make you happier than kissing. That’s why our founder and nutritionist, Joy Bauer, loaded these Double Chocolate Granola Bites with whole grain oats, chia, and chocolate to satisfy your mind, body, and taste buds. Not to replace your significant other. At least not entirely.

@@ -56,6 +56,10 @@ snacks:
 - Blueberry Apple
 - Chocolate Banana
 - Double Chocolate
+new-snacks:
+- Chocolate Penut Butter
+- Blueberry Apple
+- Double Chocolate
 ---
 
 Don’t worry, be happy – it’s easy with these Coconut Vanilla Granola Bites, made by our founder and nutritionist, Joy Bauer. Loaded with whole grain oats, chia and coconut, each bite is like a tiny tropical island of *nourishing indulgence*. It’s the perfect vacay for your mind, body & taste buds.
