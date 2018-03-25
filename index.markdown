@@ -36,6 +36,10 @@ snacks:
 - Chocolate Banana
 - Coconut Vanilla
 - Chocolate Peanut Butter
+new-snacks:
+- Chocolate Penut Butter
+- Blueberry Apple
+- Double Chocolate
 layout: page-home
 ---
 

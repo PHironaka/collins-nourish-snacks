@@ -51,6 +51,25 @@
         </div>
       </section>
 
+
+      {% if page.new-snacks.size > 0 %}
+      <section class="section section--tight-top snacks">
+        <div class="container">
+          <h2 class="snacks__title">New Snacks</h2>
+
+          <ul class="snacks__list grid"><!--
+          {% for snack in page.snacks %}
+            {% assign snacks = site.snacks | where:"title",snack %}
+            {% for item in snacks %}-->{% include snack.html %}<!--{% endfor %}
+          {% endfor %}
+       --></ul>
+        </div>
+      </section>
+      {% endif %}
+
+
+  
+
       {% if page.snacks.size > 0 %}
       <section class="section section--tight-top snacks">
         <div class="container">

@@ -57,6 +57,10 @@ snacks:
 - Chocolate Peanut Butter
 - Chocolate Banana
 - Double Chocolate
+new-snacks:
+- Chocolate Penut Butter
+- Blueberry Apple
+- Double Chocolate
 ---
 
 There are books about the benefits of blueberries and apples. But books taste bad. Our Blueberry Apple Granola Bites are another story. Made by our founder and nutritionist, Joy Bauer, with whole grain oats, chia, apples, and wild blueberries, these super tasty bites are like any best seller – impossible to put down.
