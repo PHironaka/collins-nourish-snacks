@@ -1,6 +1,8 @@
 ---
 title: Blueberry Apple
 date: 2017-04-18 13:34:00 Z
+tags:
+- new
 position: 2
 sub_header: 'Chewy Granola Bites '
 short_sub_header: Granola Bites
