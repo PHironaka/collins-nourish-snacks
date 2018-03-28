@@ -13,11 +13,63 @@
       {% include carousel.html %}
       {% endif %}
 
+                
+
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" style="display: none;">
+        <defs><path id="bites-path" d="M40,200 a160,160 0 1,1 320,0 a150,150 0 1,1 -320,0" /> </defs>
+      </svg>
+      <section class="section section--spaced bites js-scrolled-trigger">
+                  <h2>Popped Ancient Grain Crisps</h2>
+
+
+        <div class="container container--full">
+
+          <ul class="bites__grid grid grid--center">
+            {% for snack in site.snacks %}
+      {% if snack.tags contains "new" %}
+            <li class="bite__item grid__item medium--one-third" data-primary-color="{{ snack.primary_color }}" data-secondary-color="{{ snack.secondary_color }}">
+  <div class="bite">
+    <a href="{{ snack.url }}" class="bite__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+        <text>
+          <textPath xlink:href="#bites-path">{% if snack.short_title != '' %}{{ snack.short_title }}{% else %}{{ snack.title }}{% endif %} <tspan fill="#f00">Shop Now</tspan> {% if snack.short_sub_header != '' %}{{ snack.short_sub_header }}{% else %}{{ snack.sub_header }}{% endif %}</textPath>
+        </text>
+      </svg>
+      {% if snack.snack_piece_image != '' %}
+      <img src="{{ snack.snack_piece_image }}" alt="{{ snack.title }}" class="bite__img">
+      {% endif %}
+    </a>
+  </div>
+</li>
+ {% endif %}
+      {% endfor %}
+          </ul>
+        </div>
+        <style>
+          .bites {
+            background: {{ snack.primary_color }};
+            color: {{ snack.secondary_color }};
+          }
+
+          .mission {
+            color: {{ snack.primary_color }};
+          }
+
+          .mission strong {
+            color: {{ snack.secondary_color }};
+          }
+        </style>
+      </section>
+     
+
+
       {% if page.snack.size > 0 %}
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" style="display: none;">
         <defs><path id="bites-path" d="M40,200 a160,160 0 1,1 320,0 a150,150 0 1,1 -320,0" /> </defs>
       </svg>
       <section class="section section--spaced bites js-scrolled-trigger">
+                  <h2>Granola Bites</h2>
+
         <div class="container container--full">
 
           <ul class="bites__grid grid grid--center"><!--
@@ -51,43 +103,7 @@
         </div>
       </section>
 
-
-      <section class="section section--tight-top snacks">
-        <div class="container">
-          <h2 class="snacks__title">New Snacks</h2>
-
-          <ul class="snacks__list grid">
-            {% for snack in site.snacks %}
-
-      {% if snack.tags contains "new" %}
-            <li class="snacks__item grid__item medium--one-third">
-  {% assign sub_header = item.sub_header | downcase | rstrip %}
-  {% if sub_header == "coming soon" %}
-  <div class="snacks__link snacks__link--gray">
-  {% else %}
-  <a href="{{ snack.url }}" class="snacks__link">
-  {% endif %}
-    <div class="snacks__image-wrap">
-      <img src="{% if snack.main_image != '' %}{{ snack.main_image }}{% else %}/images/placeholder.png{% endif %}" alt="{{ snack.title }}" class="snacks__image">
-      {% if item.hover_image != '' %}
-      <div class="snacks__image-hover" style="background-image: url('{{ snack.hover_image }}');"></div>
-      {% endif %}
-    </div>
-    <h3 class="snacks__header"{% if item.primary_color != '' %} style="color: {{ item.primary_color }};"{% endif %}>{{ snack.title }}</h3>
-    <h4 class="snacks__subheader">{{ item.sub_header }}</h4>
-  {% if sub_header == "coming soon" %}
-  </div>
-  {% else %}
-  </a>
-  {% endif %}
-     {% endif %}
-  {% endfor %}
-</li>
-
-          </ul>
-        </div>
-      </section>
-   
+      
 
   
 
