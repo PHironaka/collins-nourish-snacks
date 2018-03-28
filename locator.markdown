@@ -5,8 +5,8 @@ position: 4
 header_background_color: "#9fd684"
 header_primary_link_color: "#444a9c"
 header_secondary_link_color: "#fff"
-external_link: 
-image: 
+external_link: https://www.amazon.com/nourishsnacks
+image: "/uploads/AmazonShopNow.png"
 layout: page-locator
 ---
 
