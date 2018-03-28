@@ -11,9 +11,9 @@
 
       <section class="section bg-cool-red-light">
         <div class="container">
-          <ul class="round-items__list grid">
-            {% for item in paginator.posts %}
-            <li class="round-items__item grid__item medium--one-third">
+          <ul class="round-items__list grid">{%
+            for item in paginator.posts
+          %}<li class="round-items__item grid__item medium--one-third">
               <a href="{{item.url}}">
                 <div class="round-items__circle bg-warm-red-dark" style="background-image: url('{% if item.grid_image != '' %}{{ item.grid_image }}{% elsif item.main_image != '' %}{{ item.main_image }}{% endif %}');">
                   <div class="round-items__image-hover" style="background-image: url('{{ page.hover_image }}');"></div>
@@ -23,9 +23,9 @@
                 <h2 class="warm-red-dark round-items__title">{{ item.title }}</h2>
                 <a class="warm-red-dark round-items__paragraph" href="{{item.url}}">READ MORE</a>
               </div>
-            </li>
-            {% endfor%}
-          </ul>
+            </li>{%
+            endfor
+        %}</ul>
 
         <!-- Pagination links -->
         <div class="pagination">
