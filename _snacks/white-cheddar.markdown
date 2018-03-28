@@ -1,6 +1,8 @@
 ---
 title: White Cheddar
 date: 2018-03-28 15:58:00 Z
+tags:
+- new
 sub_header: Popped Ancient Grain Crisps
 short_sub_header: Ancient Grain Crisps
 buy_link: http://amzn.to/2s9ZVPB
