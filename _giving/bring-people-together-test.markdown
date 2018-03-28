@@ -1,7 +1,6 @@
 ---
 title: Alliance for a Healthier Generation
 date: 2017-04-17 21:22:00 Z
-published: false
 main_image: "/uploads/joy_web.jpg"
 main_text: Throughout her successful career Joy has been fortunate enough to work
   with extraordinary kids, teens, and young adults from all walks of life, teaching
