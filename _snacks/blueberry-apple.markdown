@@ -47,7 +47,6 @@ main_image: "/uploads/BlueberryApple_Primary.jpg"
 secondary_images:
 - "/uploads/BlueberryApple_Secondary_FOP.png"
 - "/uploads/BlueberryApple_Secondary_BOP.png"
-- "/uploads/DiagramTest.png"
 hover_image: "/uploads/BlueberryApple_Rollover.gif"
 snack_piece_image: "/uploads/BlueberryApple_Bite.png"
 primary_color: "#f12442"
