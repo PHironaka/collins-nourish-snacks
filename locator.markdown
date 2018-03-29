@@ -9,7 +9,7 @@ external_link: https://www.amazon.com/nourishsnacks
 image:
 - - asset: "/uploads/AmazonShopNow.png"
     link: https://amazon.com
-  - image: "/uploads/DiagramTest.png"
+  - asset: "/uploads/DiagramTest.png"
     link: https://instagram.com
 layout: page-locator
 ---
