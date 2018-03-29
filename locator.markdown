@@ -9,6 +9,9 @@ external_link: https://www.amazon.com/nourishsnacks
 image:
   link: https://nike.com
   image: "/uploads/AmazonShopNow.png"
+image-2:
+  link: https://amazon.com
+  image: "/uploads/AmazonShopNow.png"
 layout: page-locator
 ---
 
