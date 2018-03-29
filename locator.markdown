@@ -12,6 +12,9 @@ image:
 image-2:
   link: https://amazon.com
   image: "/uploads/AmazonShopNow.png"
+header-image:
+  link: https://amazon.com
+  image: "/uploads/AmazonShopNow.png"
 layout: page-locator
 ---
 
