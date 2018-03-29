@@ -31,7 +31,8 @@ carousel_slides:
   large_image: "/uploads/DC_lg.jpg"
   title: 
   url: "/snacks/double-chocolate/"
-granola-title: GRANOLA BITES
+granola-title: granola bites
+crisp-title: popped ancient grain chips
 layout: page-snacks
 ---
 
