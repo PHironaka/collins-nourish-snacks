@@ -18,7 +18,7 @@
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" style="display: none;">
         <defs><path id="bites-path" d="M40,200 a160,160 0 1,1 320,0 a150,150 0 1,1 -320,0" /> </defs>
       </svg>
-      <section class="section section--spaced bites js-scrolled-trigger">
+      <section class="section section--spaced crisps js-scrolled-trigger">
                   <h2>Popped Ancient Grain Crisps</h2>
 
 
@@ -49,7 +49,7 @@
 
         {% for snack in site.snacks %}
       {% if snack.tags contains "new" %}
-          .bites {
+          .crisps {
             background: {{ snack.primary_color }};
             color: {{ snack.secondary_color }};
           }
