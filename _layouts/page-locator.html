@@ -13,22 +13,36 @@
 
       <section class="section">
         <div class="container">
-
+<div class="store__image">
+                    <a href="{{ page.header-image.link }}" target="_blank">
+                      <img src="{{ page.header-image.image }}" >
+                    </a>
+                  </div>
       
 
           <h1 class="is-visually-hidden">{{ page.title }}</h1>
 
           <div id='storemapper' style='width:100%;' class="js-scrolled-trigger"><p>Store Locator is loading from <a href='https://www.storemapper.co'>Storemapper</a>...</p></div><script data-storemapper-start='2016,08,16' data-storemapper-id='3256'>(function() {var script = document.createElement('script');script.type  = 'text/javascript';script.async = true;script.src = document.location.protocol + '//www.storemapper.co/js/widget.js'; var entry = document.getElementsByTagName('script')[0];entry.parentNode.insertBefore(script, entry);}());</script>
   
-  {% if page.external_link %}
+   <div class="store__image">
+                    <a href="{{ page.image.link }}" target="_blank">
+                      <img src="{{ page.image.image }}" >
+                    </a>
+                  </div>
+                
 
-         <div class="intro-link">
-      <a href="{{page.external_link }}">
-        <img src="{{page.image}}">
-      </a>
   
-</div>
-  {% endif %}
+   {% if page.image-2  %}
+                  
+                      <div class="store__image">
+                    <a href="{{ page.image-2.link }}">
+                      <img src="{{ page.image-2.image }}" >
+                    </a>
+                  </div>
+                
+                {% endif %}
+
+
 
         </div>
 

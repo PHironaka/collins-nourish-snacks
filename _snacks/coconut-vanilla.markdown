@@ -1,6 +1,8 @@
 ---
 title: Coconut Vanilla
 date: 2017-04-13 21:24:00 Z
+tags:
+- legacy
 position: 1
 sub_header: Crunchy Granola Bites
 short_sub_header: Granola Bites
