@@ -12,6 +12,9 @@ ingredient_list_text: "Nourish Proprietary Blend™ (rolled oats, brown rice, ch
   pressed sunflower oil, natural flavors, cocoa powder, cocoa butter, fruit pectin,
   soy lecithin\n\ncontains: soy\n\nNeed Help Understanding?   \n[Click Here](/posts/decoding-the-nutrition-facts-panel)
   to read our post on how to read  the new nutrition facts panel.\n"
+main_image: "/uploads/WhiteCheddar_Primary.jpg"
+secondary_images:
+- "/uploads/WhiteCheddar_Secondary_FOP.png"
 snack_piece_image: "/uploads/WhiteCheddar_Crisp-1738e5.png"
 primary_color: "#8e4b99"
 secondary_color: "#f4884c"
