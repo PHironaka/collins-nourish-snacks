@@ -31,6 +31,7 @@ carousel_slides:
   large_image: "/uploads/DC_lg.jpg"
   title: 
   url: "/snacks/double-chocolate/"
+granola-title: GRANOLA BITES
 layout: page-snacks
 ---
 
