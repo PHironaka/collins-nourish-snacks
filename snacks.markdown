@@ -32,7 +32,7 @@ carousel_slides:
   title: 
   url: "/snacks/double-chocolate/"
 granola-title: granola bites
-crisp-title: popped ancient grain chips
+crisp-title: popped ancient grain crisps
 layout: page-snacks
 ---
 
