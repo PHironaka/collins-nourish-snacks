@@ -6,7 +6,7 @@ header_background_color: "#9fd684"
 header_primary_link_color: "#444a9c"
 header_secondary_link_color: "#fff"
 external_link: https://www.amazon.com/nourishsnacks
-image:
+author:
 - - asset: "/uploads/AmazonShopNow.png"
     link: https://amazon.com
   - asset: "/uploads/DiagramTest.png"
