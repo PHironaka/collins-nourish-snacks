@@ -7,8 +7,8 @@ header_primary_link_color: "#444a9c"
 header_secondary_link_color: "#fff"
 external_link: https://www.amazon.com/nourishsnacks
 image:
-  link: https://amazon.com
-  image: "/uploads/AmazonShopNow.png"
+  link: https://nike.com
+  image: "/uploads/WhiteCheddar_Crisp-1738e5.png"
 layout: page-locator
 ---
 
