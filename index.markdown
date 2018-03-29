@@ -40,6 +40,7 @@ new-snacks:
 - Chocolate Penut Butter
 - Blueberry Apple
 - Double Chocolate
+crisp-title: Popped Ancient Grain Crisps
 layout: page-home
 ---
 
