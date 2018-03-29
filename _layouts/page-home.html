@@ -46,6 +46,9 @@
           </ul>
         </div>
         <style>
+
+        {% for snack in site.snacks %}
+      {% if snack.tags contains "new" %}
           .bites {
             background: {{ snack.primary_color }};
             color: {{ snack.secondary_color }};
@@ -58,6 +61,8 @@
           .mission strong {
             color: {{ snack.secondary_color }};
           }
+           {% endif %}
+      {% endfor %}
         </style>
       </section>
      

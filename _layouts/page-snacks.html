@@ -17,7 +17,7 @@
 
       <section class="section snacks js-scrolled-trigger">
         <div class="container">
-<h2 class="snacks__title">Popped Ancient Grain Chips</h2>
+<h2 class="snack__title">Popped Ancient Grain Chips</h2>
           <ul class="snacks__list grid">
             {% for snack in site.snacks %}
 
@@ -35,8 +35,8 @@
       <div class="snacks__image-hover" style="background-image: url('{{ snack.hover_image }}');"></div>
       {% endif %}
     </div>
-    <h3 class="snacks__header"{% if item.primary_color != '' %} style="color: {{ item.primary_color }};"{% endif %}>{{ snack.title }}</h3>
-    <h4 class="snacks__subheader">{{ item.sub_header }}</h4>
+    <h3 class="snacks__header"{% if snack.primary_color != '' %} style="color: {{ snack.primary_color }};"{% endif %}>{{ snack.title }}</h3>
+    <h4 class="snacks__subheader">{{ snack.sub_header }}</h4>
   {% if sub_header == "coming soon" %}
   </div>
   {% else %}
@@ -51,17 +51,38 @@
       </section>
    
 
-      {% if site.snacks.size > 0 %}
+
       <section class="section snacks js-scrolled-trigger">
         <div class="container">
-          <h2 class="snacks__title">Granola Bites</h2>
-          <ul class="snacks__list grid"><!--
-            {% assign snacks = site.snacks | sort: 'position' %}
-            {% for item in snacks %}-->{% include snack.html %}<!--{% endfor %}
-       --></ul>
+          <h2 class="snack__title">Granola Bites</h2>
+          <ul class="snacks__list grid">
+           {% for snack in site.snacks %}
+
+      {% if snack.tags contains "legacy" %}
+            <li class="snacks__item grid__item medium--one-third">
+  {% assign sub_header = item.sub_header | downcase | rstrip %}
+  {% if sub_header == "coming soon" %}
+  <div class="snacks__link snacks__link--gray">
+  {% else %}
+  <a href="{{ snack.url }}" class="snacks__link">
+  {% endif %}
+    <div class="snacks__image-wrap">
+      <img src="{% if snack.main_image != '' %}{{ snack.main_image }}{% else %}/images/placeholder.png{% endif %}" alt="{{ snack.title }}" class="snacks__image">
+      {% if item.hover_image != '' %}
+      <div class="snacks__image-hover" style="background-image: url('{{ snack.hover_image }}');"></div>
+      {% endif %}
+    </div>
+    <h3 class="snacks__header"{% if snack.primary_color != '' %} style="color: {{ snack.primary_color }};"{% endif %}>{{ snack.title }}</h3>
+    <h4 class="snacks__subheader">{{ snack.sub_header }}</h4>
+
+     {% endif %}
+  {% endfor %}
+</li>
+            
+          </ul>
         </div>
       </section>
-      {% endif %}
+   
 
     </main>
 

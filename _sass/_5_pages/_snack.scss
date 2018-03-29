@@ -8,10 +8,6 @@
 //
 // ---------------------------------------------------------
 
-.snack {
-
-}
-
 
 
 
@@ -184,15 +180,6 @@
   color: color('brown', 'dark');
 }
 
-.snack__title {
-  @include serif-xl;
-  @include font-size('ms');
-  @include spacing('m');
-
-  line-height: 1;
-  max-width: 20em;
-  text-transform: uppercase;
-}
 
 .snack__item {
   @include spacing('m');
@@ -292,6 +279,17 @@
     margin: 0 auto 2em;
 }
 
-.bite__item {
-  display:inline;
+
+.snack__title {
+  @include serif-xl;
+  @include font-size('ml');
+  @include spacing('m');
+
+  line-height: 1;
+  text-transform: uppercase;
+  color:#000000;
+}
+
+.store__image {
+  margin: 1em 0;
 }
