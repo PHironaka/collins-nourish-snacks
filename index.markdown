@@ -36,10 +36,6 @@ snacks:
 - Chocolate Banana
 - Coconut Vanilla
 - Chocolate Peanut Butter
-new-snacks:
-- Chocolate Penut Butter
-- Blueberry Apple
-- Double Chocolate
 crisp-title: POPPED ANCIENT GRAIN CRISPS
 granola-title: GRANOLA BITES
 layout: page-home
