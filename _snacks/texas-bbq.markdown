@@ -13,7 +13,7 @@ ingredient_list_text: "Nourish Proprietary Blend™ (rolled oats, brown rice, ch
   to read our post on how to read  the new nutrition facts panel.\n"
 main_image: "/uploads/TexasBBQ_Primary.jpg"
 secondary_images:
-- "/uploads/TexasBBQ_Primary.jpg"
+- "/uploads/TexasBBQ_Secondary_FOP.png"
 snack_piece_image: "/uploads/TexasBBQ_Bite.png"
 primary_color: "#9C182F"
 secondary_color: "#FFC629"
