@@ -8,17 +8,17 @@ header_secondary_link_color:
 carousel_slides:
 - small_image: "/uploads/Banana_sm.jpg"
   medium_image: "/uploads/Banana_md.jpg"
-  large_image: "/uploads/Banana_lg.jpg"
+  large_image: "/uploads/SeaSalt_Slider_NewSnack.jpg"
   title: 
   url: "/snacks/chocolate-banana/"
 - small_image: "/uploads/Coconut_sm.jpg"
   medium_image: "/uploads/Coconut_md.jpg"
-  large_image: "/uploads/Coconut_lg.jpg"
+  large_image: "/uploads/TexasBBQ_Slider_NewSnack.jpg"
   title: 
   url: "/snacks/coconut-vanilla/"
 - small_image: "/uploads/Blueberry_sm.jpg"
   medium_image: "/uploads/Blueberry_md.jpg"
-  large_image: "/uploads/Blueberry_lg.jpg"
+  large_image: "/uploads/WhiteCheddar_Slider_NewSnack.jpg"
   title: 
   url: "/snacks/blueberry-apple/"
 - small_image: "/uploads/Peanut_Butter_sm.jpg"
