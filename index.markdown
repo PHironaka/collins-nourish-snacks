@@ -6,16 +6,16 @@ header_background_color:
 header_primary_link_color: 
 header_secondary_link_color: 
 carousel_slides:
+- small_image: "/uploads/New%20AGCs_800x533.jpg"
+  medium_image: "/uploads/New%20AGCs_1000x667.jpg"
+  large_image: "/uploads/New%20AGCs_1500x1000.jpg"
+  title: The New Nourish
+  url: "/posts/the-new-nourish/"
 - small_image: "/uploads/MeetJoy_800x533-84bb7b.jpg"
   medium_image: "/uploads/MeetJoy_1000x667-e34140.jpg"
   large_image: "/uploads/MeetJoy_1500x1000-291e1c.jpg"
   title: meet Joy
   url: "/about#hello"
-- small_image: "/uploads/NewNourish_800x533.jpg"
-  medium_image: "/uploads/NewNourish_1000x667.jpg"
-  large_image: "/uploads/New%20Nourish_1500x1000.jpg"
-  title: The New Nourish
-  url: "/posts/the-new-nourish/"
 - small_image: "/uploads/Banana_sm-33fedd.jpg"
   medium_image: "/uploads/Banana_md-6648be.jpg"
   large_image: "/uploads/Banana_lg-bf6553.jpg"
