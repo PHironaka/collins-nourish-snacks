@@ -33,9 +33,9 @@ snack:
 - Blueberry Apple
 - Double Chocolate
 snacks:
-- Chocolate Banana
-- Coconut Vanilla
-- Chocolate Peanut Butter
+- White Cheddar
+- Sea Salt
+- Texas BBQ
 crisp-title: POPPED ANCIENT GRAIN CRISPS
 granola-title: GRANOLA BITES
 layout: page-home
