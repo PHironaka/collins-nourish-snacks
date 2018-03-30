@@ -23,7 +23,7 @@
 
       {% if snack.tags contains "new" %}
             <li class="snacks__item grid__item medium--one-third">
-  {% assign sub_header = item.sub_header | downcase | rstrip %}
+  {% assign sub_header = snack.sub_header | downcase | rstrip %}
   {% if sub_header == "coming soon" %}
   <div class="snacks__link snacks__link--gray">
   {% else %}
@@ -31,7 +31,7 @@
   {% endif %}
     <div class="snacks__image-wrap">
       <img src="{% if snack.main_image != '' %}{{ snack.main_image }}{% else %}/images/placeholder.png{% endif %}" alt="{{ snack.title }}" class="snacks__image">
-      {% if item.hover_image != '' %}
+      {% if snack.hover_image != '' %}
       <div class="snacks__image-hover" style="background-image: url('{{ snack.hover_image }}');"></div>
       {% endif %}
     </div>
@@ -74,7 +74,7 @@
     </div>
     <h3 class="snacks__header"{% if snack.primary_color != '' %} style="color: {{ snack.primary_color }};"{% endif %}>{{ snack.title }}</h3>
     <h4 class="snacks__subheader">{{ snack.sub_header }}</h4>
-
+</a>
      {% endif %}
   {% endfor %}
 </li>

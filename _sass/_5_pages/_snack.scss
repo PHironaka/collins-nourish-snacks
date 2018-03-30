@@ -271,9 +271,8 @@
 }
 
 .bites h2, .crisps h2 {
-  font-family: "DoubleXL",Georgia,Cambria,"Times New Roman",Times,serif;
-    font-weight: 700;
-        font-size: 3.125rem;
+   @include serif-xl;
+  @include font-size('ml');
     text-align:center;
     max-width:800px;
     margin: 0 auto 1em;
@@ -281,13 +280,13 @@
 
 
 .snack__title {
-  @include serif-xl;
+  @include serif-s;
   @include font-size('ml');
   @include spacing('m');
 
   line-height: 1;
   text-transform: uppercase;
-  color:#000000;
+  color:#5d3328;
 }
 
 .store__image {
