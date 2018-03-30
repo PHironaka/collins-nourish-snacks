@@ -21,16 +21,6 @@ carousel_slides:
   large_image: "/uploads/WhiteCheddar_Slider_NewSnack.jpg"
   title: 
   url: "/snacks/blueberry-apple/"
-- small_image: "/uploads/Peanut_Butter_sm.jpg"
-  medium_image: "/uploads/Peanut_Butter_md.jpg"
-  large_image: "/uploads/Peanut_Butter_lg"
-  title: 
-  url: "/snacks/chocolate-peanut-butter/"
-- small_image: "/uploads/DC_sm.jpg"
-  medium_image: "/uploads/DC_md.jpg"
-  large_image: "/uploads/DC_lg.jpg"
-  title: 
-  url: "/snacks/double-chocolate/"
 granola-title: granola bites
 crisp-title: popped ancient grain crisps
 layout: page-snacks
