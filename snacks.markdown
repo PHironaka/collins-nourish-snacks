@@ -10,17 +10,17 @@ carousel_slides:
   medium_image: "/uploads/SeaSalt_Slider_NewSnack_md.jpg"
   large_image: "/uploads/SeaSalt_Slider_NewSnack.jpg"
   title: 
-  url: "/snacks/chocolate-banana/"
+  url: "/snacks/sea-salt/"
 - small_image: "/uploads/TexasBBQ_Slider_NewSnack_sm.jpg"
   medium_image: "/uploads/TexasBBQ_Slider_NewSnack_md.jpg"
   large_image: "/uploads/TexasBBQ_Slider_NewSnack.jpg"
   title: 
-  url: "/snacks/coconut-vanilla/"
+  url: "/snacks/texas-bbq/"
 - small_image: "/uploads/WhiteCheddar_Slider_NewSnack_sm.jpg"
   medium_image: "/uploads/WhiteCheddar_Slider_NewSnack_md.jpg"
   large_image: "/uploads/WhiteCheddar_Slider_NewSnack.jpg"
   title: 
-  url: "/snacks/blueberry-apple/"
+  url: "/snacks/white-cheddar/"
 granola-title: granola bites
 crisp-title: popped ancient grain crisps
 layout: page-snacks
