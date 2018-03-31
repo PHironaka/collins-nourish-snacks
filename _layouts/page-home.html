@@ -15,56 +15,39 @@
 
                 
 
+   {% if page.crisps.size > 0 %}
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" style="display: none;">
         <defs><path id="bites-path" d="M40,200 a160,160 0 1,1 320,0 a150,150 0 1,1 -320,0" /> </defs>
       </svg>
-      <section class="section section--spaced crisps js-scrolled-trigger">
+      <section class="section section--spaced bites crisps js-scrolled-trigger">
                   <h2>{{page.crisp-title}}</h2>
-
 
         <div class="container container--full">
 
           <ul class="bites__grid grid grid--center">
-            {% for snack in site.snacks %}
-      {% if snack.tags contains "new" %}
-            <li class="bite__item grid__item medium--one-third" data-primary-color="{{ snack.primary_color }}" data-secondary-color="{{ snack.secondary_color }}">
-  <div class="bite">
-    <a href="{{ snack.url }}" class="bite__link">
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
-        <text>
-          <textPath xlink:href="#bites-path">{% if snack.short_title != '' %}{{ snack.short_title }}{% else %}{{ snack.title }}{% endif %} <tspan fill="#f00">Shop Now</tspan> {% if snack.short_sub_header != '' %}{{ snack.short_sub_header }}{% else %}{{ snack.sub_header }}{% endif %}</textPath>
-        </text>
-      </svg>
-      {% if snack.snack_piece_image != '' %}
-      <img src="{{ snack.snack_piece_image }}" alt="{{ snack.title }}" class="bite__img">
-      {% endif %}
-    </a>
-  </div>
-</li>
- {% endif %}
-      {% endfor %}
+          {% include crisp.html %}
           </ul>
         </div>
         <style>
-
-        {% for snack in site.snacks %}
+            {% for snack in site.snacks %}
       {% if snack.tags contains "new" %}
-          .crisps {
+          .bites.crisps {
             background: {{ snack.primary_color }};
             color: {{ snack.secondary_color }};
           }
-
           .mission {
             color: {{ snack.primary_color }};
           }
-
           .mission strong {
             color: {{ snack.secondary_color }};
           }
+
+
            {% endif %}
       {% endfor %}
         </style>
       </section>
+      {% endif %}
      
 
 

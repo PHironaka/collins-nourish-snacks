@@ -284,9 +284,10 @@
   @include font-size('ml');
   @include spacing('m');
 
-  line-height: 1;
+  line-height: 1.5;
   text-transform: uppercase;
   color:#5d3328;
+  border-bottom: 1px solid #5d3328;
 }
 
 .store__image {

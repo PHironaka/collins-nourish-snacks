@@ -32,6 +32,10 @@ snack:
 - Chocolate Peanut Butter
 - Blueberry Apple
 - Double Chocolate
+snacks:
+- Chocolate Banana
+- Coconut Vanilla
+- Chocolate Peanut Butter
 crisps:
 - White Cheddar
 - Sea Salt

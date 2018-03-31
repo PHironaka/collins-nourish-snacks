@@ -1,0 +1,20 @@
+{% for item in site.snacks %}
+{% if item.tags contains "new" %}
+
+<li class="bite__item grid__item medium--one-third" data-primary-color="{{ item.primary_color }}" data-secondary-color="{{ item.secondary_color }}">
+  <div class="bite">
+    <a href="{{ item.url }}" class="bite__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+        <text>
+          <textPath xlink:href="#bites-path">{% if item.short_title != '' %}{{ item.short_title }}{% else %}{{ item.title }}{% endif %} <tspan fill="#f00">Shop Now</tspan> {% if item.short_sub_header != '' %}{{ item.short_sub_header }}{% else %}{{ item.sub_header }}{% endif %}</textPath>
+        </text>
+      </svg>
+      {% if item.snack_piece_image != '' %}
+      <img src="{{ item.snack_piece_image }}" alt="{{ item.title }}" class="bite__img">
+      {% endif %}
+    </a>
+  </div>
+</li>
+      {% endif %}
+
+      {% endfor %}
