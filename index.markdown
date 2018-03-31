@@ -32,7 +32,7 @@ snack:
 - Chocolate Peanut Butter
 - Blueberry Apple
 - Double Chocolate
-snacks:
+crisps:
 - White Cheddar
 - Sea Salt
 - Texas BBQ
