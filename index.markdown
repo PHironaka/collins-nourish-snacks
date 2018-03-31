@@ -36,6 +36,7 @@ crisps:
 - White Cheddar
 - Sea Salt
 - Texas BBQ
+- Chocolate Banana
 crisp-title: POPPED ANCIENT GRAIN CRISPS
 granola-title: GRANOLA BITES
 layout: page-home
