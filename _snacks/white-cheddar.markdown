@@ -16,7 +16,7 @@ main_image: "/uploads/WhiteCheddar_Primary.jpg"
 secondary_images:
 - "/uploads/WhiteCheddar_Secondary_FOP.png"
 - "/uploads/WhiteCheddar_Secondary_BOP.png"
-- "/uploads/WhiteCheddar_Secondary_Diagram.png"
+- "/uploads/SeaSalt_Secondary_Diagram-141f30.png"
 hover_image: "/uploads/WhiteCheddar.gif"
 snack_piece_image: "/uploads/WhiteCheddar_Crisp-1738e5.png"
 primary_color: "#8e4b99"
