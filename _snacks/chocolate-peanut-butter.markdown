@@ -3,7 +3,7 @@ title: Chocolate Peanut Butter
 date: 2017-04-13 21:03:00 Z
 tags:
 - legacy
-position: 3
+position: 5
 short_title: Choc. Peanut Butter
 sub_header: Chewy Granola Bites
 short_sub_header: Granola Bites

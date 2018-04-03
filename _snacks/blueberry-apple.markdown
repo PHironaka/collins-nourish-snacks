@@ -3,7 +3,7 @@ title: Blueberry Apple
 date: 2017-04-18 13:34:00 Z
 tags:
 - legacy
-position: 2
+position: 4
 sub_header: 'Chewy Granola Bites '
 short_sub_header: Granola Bites
 buy_link: http://amzn.to/2taUmz3
