@@ -21,8 +21,8 @@ carousel_slides:
   large_image: "/uploads/WhiteCheddar_Slider_NewSnack.jpg"
   title: 
   url: "/snacks/white-cheddar/"
-granola-title: granola bites
 crisp-title: popped ancient grain crisps
+granola-title: granola bites
 layout: page-snacks
 ---
 
