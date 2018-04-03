@@ -5,15 +5,15 @@ position: 4
 header_background_color: "#9fd684"
 header_primary_link_color: "#444a9c"
 header_secondary_link_color: "#fff"
-image:
-  link: https://nike.com
-  image: "/uploads/AmazonShopNow.png"
-image-2:
-  link: https://amazon.com
-  image: "/uploads/AmazonShopNow.png"
 header-image:
-  link: https://amazon.com
-  image: "/uploads/AmazonShopNow.png"
+  link: https://amazon.com/nourishsnacks
+  image: "/uploads/AmazonShopNow-596bec.jpg"
+image:
+  link: 
+  image: 
+image-2:
+  link: 
+  image: 
 layout: page-locator
 ---
 

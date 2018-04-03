@@ -3,7 +3,7 @@ title: Double Chocolate
 date: 2017-04-18 13:43:00 Z
 tags:
 - legacy
-position: 4
+position: 7
 sub_header: 'Chewy Granola Bites '
 short_sub_header: Granola Bites
 buy_link: https://www.amazon.com/dp/B071DV6G2T
