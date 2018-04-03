@@ -14,6 +14,9 @@ ingredient_list_text: "Nourish Proprietary Blend™ (rolled oats, brown rice, ch
 main_image: "/uploads/SeaSalt_Primary.jpg"
 secondary_images:
 - "/uploads/SeaSalt_Secondary_FOP.png"
+- "/uploads/SeaSalt_Secondary_BOP.png"
+- "/uploads/SeaSalt_Secondary_Diagram.png"
+hover_image: "/uploads/SeaSalt.gif"
 snack_piece_image: "/uploads/SeaSalt_Crisp.png"
 primary_color: "#00A0DF"
 secondary_color: "#323E48"

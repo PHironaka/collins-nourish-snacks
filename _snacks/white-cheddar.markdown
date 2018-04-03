@@ -15,6 +15,9 @@ ingredient_list_text: "Nourish Proprietary Blend™ (rolled oats, brown rice, ch
 main_image: "/uploads/WhiteCheddar_Primary.jpg"
 secondary_images:
 - "/uploads/WhiteCheddar_Secondary_FOP.png"
+- "/uploads/WhiteCheddar_Secondary_BOP.png"
+- "/uploads/WhiteCheddar_Secondary_Diagram.png"
+hover_image: "/uploads/WhiteCheddar.gif"
 snack_piece_image: "/uploads/WhiteCheddar_Crisp-1738e5.png"
 primary_color: "#8e4b99"
 secondary_color: "#f4884c"
