@@ -7,7 +7,7 @@ header_primary_link_color: "#444a9c"
 header_secondary_link_color: "#fff"
 header-image:
   link: https://amazon.com/nourishsnacks
-  image: "/uploads/AmazonShopNow.jpg"
+  image: "/uploads/AmazonShopNow-596bec.jpg"
 image:
   link: 
   image: 
