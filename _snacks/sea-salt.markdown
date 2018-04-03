@@ -16,7 +16,7 @@ main_image: "/uploads/SeaSalt_Primary.jpg"
 secondary_images:
 - "/uploads/SeaSalt_Secondary_FOP.png"
 - "/uploads/SeaSalt_Secondary_BOP.png"
-- "/uploads/SeaSalt_Secondary_Diagram-141f30.png"
+- "/uploads/SeaSalt_Secondary_Diagram-9a7f03.png"
 hover_image: "/uploads/SeaSalt.gif"
 snack_piece_image: "/uploads/SeaSalt_Crisp.png"
 primary_color: "#00A0DF"
