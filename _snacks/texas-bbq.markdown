@@ -16,6 +16,7 @@ secondary_images:
 - "/uploads/TexasBBQ_Secondary_FOP.png"
 - "/uploads/TexasBBQ_Secondary_BOP.png"
 - "/uploads/TexasBBQ_Secondary_Diagram.png"
+hover_image: "/uploads/TexasBBQ.gif"
 snack_piece_image: "/uploads/TexasBBQ_Bite.png"
 primary_color: "#9C182F"
 secondary_color: "#FFC629"
