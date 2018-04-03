@@ -13,7 +13,7 @@ carousel_slides:
   url: "/posts/the-new-nourish/"
 - small_image: "/uploads/MeetJoy_800x533-84bb7b.jpg"
   medium_image: "/uploads/MeetJoy_1000x667-e34140.jpg"
-  large_image: "/uploads/New-AGCs_1500x1000_02.gif"
+  large_image: "/uploads/MeetJoy_1500x1000-0aa4d2.jpg"
   title: meet Joy
   url: "/about#hello"
 - small_image: "/uploads/Banana_sm-33fedd.jpg"
