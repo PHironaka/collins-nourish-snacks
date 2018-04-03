@@ -38,8 +38,8 @@ snacks:
 - Chocolate Peanut Butter
 crisps:
 - White Cheddar
-- Sea Salt
 - Texas BBQ
+- Sea Salt
 crisp-title: POPPED ANCIENT GRAIN CRISPS
 granola-title: GRANOLA BITES
 layout: page-home
