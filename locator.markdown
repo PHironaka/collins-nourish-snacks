@@ -5,13 +5,13 @@ position: 4
 header_background_color: "#9fd684"
 header_primary_link_color: "#444a9c"
 header_secondary_link_color: "#fff"
+header-image:
+  link: https://amazon.com
+  image: "/uploads/AmazonShopNow.jpg"
 image:
   link: https://nike.com
   image: "/uploads/AmazonShopNow.png"
 image-2:
-  link: https://amazon.com
-  image: "/uploads/AmazonShopNow.png"
-header-image:
   link: https://amazon.com
   image: "/uploads/AmazonShopNow.png"
 layout: page-locator
