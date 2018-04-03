@@ -30,19 +30,18 @@
         </div>
         <style>
             {% for snack in site.snacks %}
-      {% if snack.tags contains "new" %}
+            {% assign crisp = site.snacks | where:"title",page.crisps.first | first %}
           .bites.crisps {
-            background: {{ snack.primary_color }};
-            color: {{ snack.secondary_color }};
+            background: {{ crisp.primary_color }};
+            color: {{ crisp.secondary_color }};
           }
           .mission {
-            color: {{ snack.primary_color }};
+            color: {{ crisp.primary_color }};
           }
           .mission strong {
-            color: {{ snack.secondary_color }};
+            color: {{ crisp.secondary_color }};
           }
           
-           {% endif %}
       {% endfor %}
         </style>
       </section>
