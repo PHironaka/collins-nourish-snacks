@@ -8,7 +8,7 @@ header_secondary_link_color:
 carousel_slides:
 - small_image: "/uploads/New%20AGCs_800x533-2ba6a7.jpg"
   medium_image: "/uploads/New%20AGCs_1000x667-c21376.jpg"
-  large_image: "/uploads/New-AGCs_1500x1000_01.jpg"
+  large_image: "/uploads/New%20AGCs_1500x1000-35f837.jpg"
   title: The New Nourish
   url: "/posts/the-new-nourish/"
 - small_image: "/uploads/MeetJoy_800x533-84bb7b.jpg"
