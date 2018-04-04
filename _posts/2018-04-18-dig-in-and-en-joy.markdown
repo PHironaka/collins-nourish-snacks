@@ -2,7 +2,7 @@
 title: Dig in and enJOY!
 date: 2018-04-18 04:37:00 Z
 main_image: "/uploads/New%20AGCs.jpg"
-grid_image: "/uploads/Untitled-1.jpg"
+grid_image: "/uploads/Untitled-1-a566bc.jpg"
 ---
 
 An exciting revelation is poppin’ off, and we just can’t wait for you to dig in. We think there’s a grain of truth to the saying ‘everything old is new again’ but don’t be salty if you don’t get what we’re hinting at right away.  It’s kind of a cheesy riddle anyway.
