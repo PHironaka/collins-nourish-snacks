@@ -12,9 +12,9 @@ They’re chock full o’ nutrient-rich ingredients. They’re so freaking delic
 
 Salty snack lovers, rejoice! We’ve heard you loud and clear, and we’re so psyched to reveal that FINALLY we’re an equal opportunity snack provider.
 
-Sea Salt.
-White Cheddar.
-Texas BBQ.
+Sea Salt.  
+White Cheddar.  
+Texas BBQ.  
 It’s impossible to decide which one to tear open first, areweright? (Trust us, this has been a hot debate topic in the Nourish office as of late).
 
 We dare you to go back to movie theater popcorn once you’ve tried <a href="/snacks/sea-salt/" target="_blank">Sea Salt</a>.  
