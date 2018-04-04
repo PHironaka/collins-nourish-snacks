@@ -7,10 +7,10 @@ position: 2
 sub_header: Popped Ancient Grain Crisps
 short_sub_header: Ancient Grain Crisps
 buy_link: http://amzn.to/2s9ZVPB
-ingredient_list_text: "Nourish Proprietary Blend™ (rolled oats, brown rice, chia seeds,
-  brown rice syrup, sea salt), cane sugar, banana, unsweetened chocolate, expeller
-  pressed sunflower oil, natural flavors, cocoa powder, cocoa butter, fruit pectin,
-  soy lecithin\n\ncontains: soy\n\nNeed Help Understanding?   \n[Click Here](/posts/decoding-the-nutrition-facts-panel)
+ingredient_list_text: "Nourish®Proprietary Blend™ (whole grain sorghum, brown rice,
+  chia seeds, millet, quinoa, hemp seeds), sugar, brown sugar, sea salt, spices, tomato,
+  onion, garlic, smoked paprika, sweet paprika, citric acid, natural flavors, sunflower
+  oil\n\nMade in a nut-free facility\n\nNeed help understanding?   \n[Click Here](/posts/decoding-the-nutrition-facts-panel)
   to read our post on how to read  the new nutrition facts panel.\n"
 serving_size_text: "28g, approximately 20 crisps   \nCalories 110 | Total Fat 3.5g
   |  \nSaturated Fat 0g | Trans Fat 0g |  \nCholesterol 0mg | Sodium 180mg |  \nTotal
