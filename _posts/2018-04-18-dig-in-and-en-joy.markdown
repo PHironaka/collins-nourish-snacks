@@ -25,6 +25,6 @@ And <a href="/snacks/texas-bbq/" target="_blank">Texas BBQ</a>. Let’s just say
 
 The best part? These snacks are made with purposeful ingredients like whole grain sorghum, quinoa, millet, brown rice, chia and hemp seeds (head over to our product pages to see why each ingredient serves a purpose). As always, these snacks are made with high-quality, nutrient-rich ingredients that also taste INCREDIBLE.
 
-Trust us, these Popped Ancient Grain Crisps are the bomb. We’re so excited to finally share them with all of you, and we can’t wait to hear what you think. So dig in & en-JOY!
+Trust us, these Popped Ancient Grain Crisps are the bomb. We’re so excited to finally share them with all of you, and we can’t wait to hear what you think. So dig in & enJOY!
 
 Find a <a href="/locator/" target="_blank">store</a> near you!
