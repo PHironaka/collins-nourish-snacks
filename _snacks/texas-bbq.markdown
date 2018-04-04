@@ -12,6 +12,10 @@ ingredient_list_text: "Nourish Proprietary Blend™ (rolled oats, brown rice, ch
   pressed sunflower oil, natural flavors, cocoa powder, cocoa butter, fruit pectin,
   soy lecithin\n\ncontains: soy\n\nNeed Help Understanding?   \n[Click Here](/posts/decoding-the-nutrition-facts-panel)
   to read our post on how to read  the new nutrition facts panel.\n"
+serving_size_text: "28g, approximately 20 crisps   \nCalories 110 | Total Fat 3.5g
+  |  \nSaturated Fat 0g | Trans Fat 0g |  \nCholesterol 0mg | Sodium 180mg |  \nTotal
+  Carbohydrate 19g | Dietary Fiber 2g |  \nTotal Sugars 2g, Includes 1g Added Sugars
+  |  \nProtein 2g"
 main_image: "/uploads/TexasBBQ_Primary.jpg"
 secondary_images:
 - "/uploads/TexasBBQ_Secondary_FOP.png"
@@ -25,3 +29,4 @@ header_top_color: "#F47E48"
 header_bottom_color: "#f1e5b5"
 ---
 
+Licking your fingers is the only way to clean up after eating BBQ. You'll feel the same when you try these Texas BBQ Ancient Grain Crisps. Our founder & nutritionist, Joy Bauer, made them with purposeful ingredients like whole grain sorghum, quinoa, millet, brown rice, chia & hemp seeds. All the smoky, sweet BBQ flavor you crave. None of the I-need-to-unbutton-my-pants feeling.
