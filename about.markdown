@@ -16,27 +16,27 @@ say_hello: "JOY BAUER, MS, RDN is one of the nation’s leading health authoriti
   a result, Joy places the same emphasis on nutrient-rich ingredients as she does
   on super delicious taste...to create snacks that she likes to call a nourishing
   indulgence.\n\nIn addition to her 20+ year career as a Registered Dietitian and
-  founder of Nourish Snacks, Joy is the nutrition and health expert for NBC’s TODAY
-  Show, a 12-time New York Times best-selling author, columnist for Woman’s Day Magazine,
-  and creator of JoyBauer.com.\n\n“As a nutritionist, I know the power of the perfect
-  diet. But as a mom and foodie, I know that we have cravings. It’s hard to give up
-  the foods and flavors we love – I get it! That’s why I started Nourish Snacks to
-  give us the best of both worlds – snacks made with nutrient-rich ingredients that
-  taste super delicious.”  \n\n~JOY BAUER, MS, RDN  \nNourish Snacks Founder & Chief
-  Nutrition Officer"
+  founder of Nourish Snacks, Joy is host of NBC's new show, Health + Happiness, the
+  nutrition and health expert for the TODAY Show, a 12-time New York Times best-selling
+  author, columnist for Woman’s Day Magazine, and creator of JoyBauer.com.\n\n“As
+  a nutritionist, I know the power of the perfect diet. But as a mom and foodie, I
+  know that we have cravings. It’s hard to give up the foods and flavors we love –
+  I get it! That’s why I started Nourish Snacks to give us the best of both worlds
+  – snacks made with nutrient-rich ingredients that taste super delicious.”  \n\n~JOY
+  BAUER, MS, RDN  \nNourish Snacks Founder & Chief Nutrition Officer"
 purposeful_ingredients: "Joy obsesses over quality and creates all our snack recipes
-  using nutrient-rich ingredients, like whole grain oats, chia, apples, and bananas.
-  \n\nWe strive to use clean ingredients that add nutritive benefit to your diet,
-  and they’ve gotta be really yummy, too (check out our product pages where we explain
-  why we chose each ingredient). Oh, and we’ll never add anything artificial, be it
-  sweeteners, colors, or preservatives either."
+  using nutrient-rich ingredients, like whole grain sorghum, whole grain oats, quinoa,
+  millet, and chia seeds.. \n\nWe strive to use clean ingredients that add nutritive
+  benefit to your diet, and they’ve gotta be really yummy, too (check out our product
+  pages where we explain why we chose each ingredient). Oh, and we’ll never add anything
+  artificial, be it sweeteners, colors, or preservatives either."
 nutrition_science: "IT’S NOT ROCKET SCIENCE... it’s nutrition science. There’s no
   denying it, we all snack. Or at least 94% of us do. ‘Cause there’s nothing like
   that moment a snack break delivers – that mini getaway that lets you clear your
   head and recharge. \n\nJoy’s 20+ year career as a Registered Dietitian has kept
   her laser-focused on basic nutrition science, and this same focus applies at Nourish
   Snacks, as well. Nourish is mindful when creating snacks, and levels of key nutritional
-  values, like calories, sodium, and sugar, are always considered.\n"
+  values--like calories, sodium, and sugar--are always considered.\n"
 faq_snacks:
 - question: Does Joy really make these snacks?
   answer: Yup! From concept and recipe development to ingredient sourcing and production,
@@ -45,27 +45,25 @@ faq_snacks:
 - question: You talk about purposeful ingredients, what does that mean?
   answer: 'All of our snacks are made with purposeful ingredients, that is, ingredients
     that are nutrient-rich and add beneficial nourishment to your diet (think: whole
-    grain oats, chia, blueberries, bananas, apples, peanut butter). For specific information
-    about our ingredients, check out our [Purposeful Ingredients](/about#beliefs)
+    grain sorghum, millet, hemp seeds, wild blueberries, bananas, apples). For specific
+    information about our ingredients, check out our [Purposeful Ingredients](/about#beliefs)
     section.
 
 '
-- question: Are you going to come out with more snacks?
-  answer: Yes! Joy is working on developing new snacks that will come out very soon.
-    She’s exploring options for savory snacks that contain different ingredient combinations
-    than our current assortment. To stay in the know, sign up for our emails <a href="https://visitor.r20.constantcontact.com/manage/optin?v=001yJAGJ9gIPVoGtgfAj97rC3H9sAHnkvfwxX7zMWUWubWuaMnt9MRb3nU5DiQzODwKM6loxQi5r29dbk7-BUv1QAMySLruQjdJAbP3MdUDBrI%3D"
-    target="_blank">here</a>.
 - question: Do you have any snacks that contain no sugar?
-  answer: Unfortunately, not at this time. But Joy is working on developing new savory
-    snacks that contain no sugar, so stay tuned! To get the latest on Nourish, sign
-    up for our emails <a href="https://visitor.r20.constantcontact.com/manage/optin?v=001yJAGJ9gIPVoGtgfAj97rC3H9sAHnkvfwxX7zMWUWubWuaMnt9MRb3nU5DiQzODwKM6loxQi5r29dbk7-BUv1QAMySLruQjdJAbP3MdUDBrI%3D"
-    target="_blank">here</a>
+  answer: YES! We're so thrilled to announce that our *NEW* Sea Salt Ancient Grain
+    Crisps contain absolutely zero sugar, and our White Cheddar Ancient Grain Crisps
+    have less than 1 gram of total sugar per serving.
 - question: Do your snacks contain any of the common food allergens, i.e. soy, peanuts,
     tree nuts, wheat, egg or milk?
-  answer: "All of our chocolate granola bites <a href=\"/snacks/chocolate-peanut-butter/\"
-    target=\"_blank\">Chocolate-Peanut Butter</a>, <a href=\"/snacks/chocolate-banana/\"
-    target=\"_blank\">Chocolate-Banana</a> and  <a href=\"/snacks/double-chocolate/\"
-    target=\"_blank\">Double Chocolate</a> contain soy. \n\nOur <a href=\"/snacks/chocolate-peanut-butter/\"
+  answer: "ANCIENT GRAIN CRISPS  \nAll of our Ancient Grain Crisps, are made in a
+    nut-free facility, so they're totally safe for anyone with nut allergies.\n\nOur
+    <a href=\"/snacks/white-cheddar/\" target=\"_blank\">White Cheddar Ancient Grain
+    Crisps</a> contain milk.\n\nGRANOLA BITES  \nAll of our chocolate granola bites
+    <a href=\"/snacks/chocolate-peanut-butter/\" target=\"_blank\">Chocolate-Peanut
+    Butter</a>, <a href=\"/snacks/chocolate-banana/\" target=\"_blank\">Chocolate-Banana</a>
+    and  <a href=\"/snacks/double-chocolate/\" target=\"_blank\">Double Chocolate</a>
+    contain soy from the emulsifier, soy lecithin. \n\nOur <a href=\"/snacks/chocolate-peanut-butter/\"
     target=\"_blank\">Chocolate-Peanut Butter Granola Bites</a> contain peanuts. Our
     \n<a href=\"/snacks/coconut-vanilla/\" target=\"_blank\">Coconut-Vanilla Granola
     Bites</a> contain coconut, a tree nut. Additionally, while our facility exercises
