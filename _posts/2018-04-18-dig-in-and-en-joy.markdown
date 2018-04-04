@@ -17,12 +17,12 @@ White Cheddar.
 Texas BBQ.
 It’s impossible to decide which one to tear open first, areweright? (Trust us, this has been a hot debate topic in the Nourish office as of late).
 
-We dare you to go back to movie theater popcorn once you’ve tried Sea Salt (link).
-White Cheddar(link)? Let’s be honest, cheese makes everything taste amazing.
-And Texas BBQ(link). Let’s just say that our founder and nutritionist, Joy Bauer, has been working on the seasoning for over 2 years and, boy, did she nail it.
+We dare you to go back to movie theater popcorn once you’ve tried <a href="/snacks/sea-salt/" target="_blank">Sea Salt</a>.
+<a href="/snacks/white-cheddar/" target="_blank">White Cheddar</a>? Let’s be honest, cheese makes everything taste amazing.
+And <a href="/snacks/texas-bbq/" target="_blank">Texas BBQ</a>. Let’s just say that our founder and nutritionist, Joy Bauer, has been working on the seasoning for over 2 years and, boy, did she nail it.
 
-The best part? These snacks are made with purposeful ingredients like whole grain sorghum, quinoa, millet, brown rice, chia and hemp seeds (head over to our product pages to see why each ingredient serves a purpose-link). As always, these snacks are made with high-quality, nutrient-rich ingredients that also taste INCREDIBLE.
+The best part? These snacks are made with purposeful ingredients like whole grain sorghum, quinoa, millet, brown rice, chia and hemp seeds (head over to our product pages to see why each ingredient serves a purpose). As always, these snacks are made with high-quality, nutrient-rich ingredients that also taste INCREDIBLE.
 
 Trust us, these Popped Ancient Grain Crisps are the bomb. We’re so excited to finally share them with all of you, and we can’t wait to hear what you think. So dig in and en-JOY!
 
-Find a store near you! (link)
+Find a <a href="/locator/" target="_blank">store</a> near you!
