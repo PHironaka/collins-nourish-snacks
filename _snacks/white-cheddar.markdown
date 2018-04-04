@@ -9,8 +9,8 @@ short_sub_header: Ancient Grain Crisps
 buy_link: http://amzn.to/2s9ZVPB
 ingredient_list_text: "Nourish Proprietary Blend™ (whole grain sorghum, brown rice,
   chia seeds, millet, quinoa, hemp seeds), cheddar cheese (cultured milk, salt, natural
-  flavors, lactic acid), sea salt, whey, citric acid, sunflower oil\n\ncontains: milk
-  ingredients\n\nMade in a nut-free facility\n\nNeed Help Understanding?   \n[Click
+  flavors, lactic acid), sea salt, whey, citric acid, sunflower oil\n\nContains: milk
+  ingredients\n\nMade in a nut-free facility\n\nNeed help understanding?   \n[Click
   Here](/posts/decoding-the-nutrition-facts-panel) to read our post on how to read
   \ the new nutrition facts panel.\n"
 main_image: "/uploads/WhiteCheddar_Primary.jpg"
