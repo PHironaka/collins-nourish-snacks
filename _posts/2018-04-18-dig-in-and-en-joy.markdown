@@ -1,5 +1,5 @@
 ---
-title: Dig in and enJOY!
+title: New snack, who dis?
 date: 2018-04-18 04:37:00 Z
 main_image: "/uploads/New%20AGCs.jpg"
 grid_image: "/uploads/Untitled-1-a566bc.jpg"
