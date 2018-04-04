@@ -51,22 +51,23 @@ faq_snacks:
 
 '
 - question: Do you have any snacks that contain no sugar?
-  answer: Unfortunately, not at this time. But Joy is working on developing new savory
-    snacks that contain no sugar, so stay tuned! To get the latest on Nourish, sign
-    up for our emails <a href="https://visitor.r20.constantcontact.com/manage/optin?v=001yJAGJ9gIPVoGtgfAj97rC3H9sAHnkvfwxX7zMWUWubWuaMnt9MRb3nU5DiQzODwKM6loxQi5r29dbk7-BUv1QAMySLruQjdJAbP3MdUDBrI%3D"
-    target="_blank">here</a>
+  answer: YES! We're so thrilled to announce that our *NEW* Sea Salt Ancient Grain
+    Crisps contain absolutely zero sugar, and our White Cheddar Ancient Grain Crisps
+    have less than 1 gram of total sugar per serving.
 - question: Do your snacks contain any of the common food allergens, i.e. soy, peanuts,
     tree nuts, wheat, egg or milk?
-  answer: "All of our chocolate granola bites <a href=\"/snacks/chocolate-peanut-butter/\"
-    target=\"_blank\">Chocolate-Peanut Butter</a>, <a href=\"/snacks/chocolate-banana/\"
-    target=\"_blank\">Chocolate-Banana</a> and  <a href=\"/snacks/double-chocolate/\"
-    target=\"_blank\">Double Chocolate</a> contain soy. \n\nOur <a href=\"/snacks/chocolate-peanut-butter/\"
-    target=\"_blank\">Chocolate-Peanut Butter Granola Bites</a> contain peanuts. Our
-    \n<a href=\"/snacks/coconut-vanilla/\" target=\"_blank\">Coconut-Vanilla Granola
-    Bites</a> contain coconut, a tree nut. Additionally, while our facility exercises
-    best practices to prevent cross-contamination, all our snacks are produced on
-    shared equipment, so they contain trace amounts of soy, peanuts, tree nuts, wheat,
-    egg and milk."
+  answer: "ANCIENT GRAIN CRISPS  \nAll of our Ancient Grain Crisps are made in a nut-free
+    facility, so they're totally safe for anyone with nut allergies.\n\nOur White
+    Cheddar Ancient Grain Crisps contain milk.\n\nGRANOLA BITES  \nAll of our chocolate
+    granola bites <a href=\"/snacks/chocolate-peanut-butter/\" target=\"_blank\">Chocolate-Peanut
+    Butter</a>, <a href=\"/snacks/chocolate-banana/\" target=\"_blank\">Chocolate-Banana</a>
+    and  <a href=\"/snacks/double-chocolate/\" target=\"_blank\">Double Chocolate</a>
+    contain soy. \n\nOur <a href=\"/snacks/chocolate-peanut-butter/\" target=\"_blank\">Chocolate-Peanut
+    Butter Granola Bites</a> contain peanuts. Our \n<a href=\"/snacks/coconut-vanilla/\"
+    target=\"_blank\">Coconut-Vanilla Granola Bites</a> contain coconut, a tree nut.
+    Additionally, while our facility exercises best practices to prevent cross-contamination,
+    all our snacks are produced on shared equipment, so they contain trace amounts
+    of soy, peanuts, tree nuts, wheat, egg and milk."
 - question: Do you use all-natural ingredients?
   answer: All our ingredients come from natural sources, but we’ve cut them up, mixed
     them together and cooked them. One thing we’ll say is, we’ll never add anything
