@@ -1,6 +1,6 @@
 ---
 title: |-
-  Dig in &
+  Dig in and
   en-JOY!
 date: 2018-04-18 04:37:00 Z
 ---
