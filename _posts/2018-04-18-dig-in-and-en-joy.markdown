@@ -1,5 +1,5 @@
 ---
-title: Dig in & enJOY!
+title: Dig in and enJOY!
 date: 2018-04-18 04:37:00 Z
 ---
 
