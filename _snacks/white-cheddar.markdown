@@ -13,6 +13,10 @@ ingredient_list_text: "Nourish Proprietary Blend™ (whole grain sorghum, brown 
   ingredients\n\nMade in a nut-free facility\n\nNeed help understanding?   \n[Click
   Here](/posts/decoding-the-nutrition-facts-panel) to read our post on how to read
   \ the new nutrition facts panel.\n"
+serving_size_text: "28g, approximately 20 crisps   \nCalories 110 | Total Fat 4.5g
+  |  \nSaturated Fat 1g | Trans Fat 0g |  \nCholesterol 5mg | Sodium 170mg |  \nTotal
+  Carbohydrate 17g | Dietary Fiber 2g |  \nTotal Sugars <1g, Includes 0g Added Sugars
+  |  \nProtein 3g"
 main_image: "/uploads/WhiteCheddar_Primary.jpg"
 secondary_images:
 - "/uploads/WhiteCheddar_Secondary_FOP.png"
