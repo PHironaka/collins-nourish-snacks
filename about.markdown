@@ -56,8 +56,8 @@ faq_snacks:
     have less than 1 gram of total sugar per serving.
 - question: Do your snacks contain any of the common food allergens, i.e. soy, peanuts,
     tree nuts, wheat, egg or milk?
-  answer: "ANCIENT GRAIN CRISPS  \nAll of our Ancient Grain Crisps, are made in a
-    nut-free facility, so they're totally safe for anyone with nut allergies.\n\nOur
+  answer: "ANCIENT GRAIN CRISPS  \nAll of our [Ancient Grain Crisps](/snacks/), are
+    made in a nut-free facility, so they're totally safe for anyone with nut allergies.\n\nOur
     <a href=\"/snacks/white-cheddar/\" target=\"_blank\">White Cheddar Ancient Grain
     Crisps</a> contain milk.\n\nGRANOLA BITES  \nAll of our chocolate granola bites
     <a href=\"/snacks/chocolate-peanut-butter/\" target=\"_blank\">Chocolate-Peanut
@@ -91,7 +91,7 @@ faq_snacks:
     than 10g of total sugar per serving. And truly, all our current snacks fall well
     below these thresholds.'
 faq_buying_snacks:
-- question: Where can I buy Nourish
+- question: Where can I buy Nourish?
   answer: 'To find Nourish at a store near you, please use our [Snack Locator](/locator).
     Can’t find us near you?  Step 1: ask your grocery store manager to start carrying
     Nourish, Step 2: In the meantime, purchase Nourish online on <a href="https://www.amazon.com/stores/page/D64280CE-8C4B-40C2-B50D-0C58E5B72679"
