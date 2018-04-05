@@ -10,7 +10,7 @@ An exciting revelation is poppin’ off, and we just can’t wait for you to dig
 Drum roll please…
 They’re chock full o’ nutrient-rich ingredients. They’re so freaking delicious. They’re the greatest thing since…granola bites.
 
-**Presenting: Nourish Snacks’ Popped Ancient Grain Crisps!(link)**
+**Presenting: [Nourish Snacks’ Popped Ancient Grain Crisps](/snacks)!**
 
 Salty snack lovers, rejoice! We’ve heard you loud and clear, and we’re so psyched to reveal that FINALLY we’re an equal opportunity snack provider.
 
