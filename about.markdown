@@ -56,11 +56,11 @@ faq_snacks:
     have less than 1 gram of total sugar per serving.
 - question: Do your snacks contain any of the common food allergens, i.e. soy, peanuts,
     tree nuts, wheat, egg or milk?
-  answer: "ANCIENT GRAIN CRISPS  \nAll of our [Ancient Grain Crisps](/snacks/), are
-    made in a nut-free facility, so they're totally safe for anyone with nut allergies.\n\nOur
-    <a href=\"/snacks/white-cheddar/\" target=\"_blank\">White Cheddar Ancient Grain
-    Crisps</a> contain milk.\n\nGRANOLA BITES  \nAll of our chocolate granola bites
-    <a href=\"/snacks/chocolate-peanut-butter/\" target=\"_blank\">Chocolate-Peanut
+  answer: "ANCIENT GRAIN CRISPS  \nAll of our <a href=\"/snacks/\" target=\"_blank\">Ancient
+    Grain Crisps</a>, are made in a nut-free facility, so they're totally safe for
+    anyone with nut allergies.\n\nOur <a href=\"/snacks/white-cheddar/\" target=\"_blank\">White
+    Cheddar Ancient Grain Crisps</a> contain milk.\n\nGRANOLA BITES  \nAll of our
+    chocolate granola bites <a href=\"/snacks/chocolate-peanut-butter/\" target=\"_blank\">Chocolate-Peanut
     Butter</a>, <a href=\"/snacks/chocolate-banana/\" target=\"_blank\">Chocolate-Banana</a>
     and  <a href=\"/snacks/double-chocolate/\" target=\"_blank\">Double Chocolate</a>
     contain soy from the emulsifier, soy lecithin. \n\nOur <a href=\"/snacks/chocolate-peanut-butter/\"
