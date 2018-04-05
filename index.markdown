@@ -6,11 +6,11 @@ header_background_color:
 header_primary_link_color: 
 header_secondary_link_color: 
 carousel_slides:
-- small_image: "/uploads/New%20AGCs_800x533V2-78bb4f.jpg"
-  medium_image: "/uploads/New%20AGCs_1000x667V2-229571.jpg"
-  large_image: "/uploads/New%20AGCs_1500x1000V2-b60c9c.jpg"
+- small_image: "/uploads/New%20AGCs_800x533V2.jpg"
+  medium_image: "/uploads/New%20AGCs_1000x667V2.jpg"
+  large_image: "/uploads/New%20AGCs_1500x1000V2.jpg"
   title: The New Nourish
-  url: "/posts/dig-in-and-en-joy/"
+  url: "/posts/the-new-nourish/"
 - small_image: "/uploads/MeetJoy_800x533-84bb7b.jpg"
   medium_image: "/uploads/MeetJoy_1000x667-e34140.jpg"
   large_image: "/uploads/MeetJoy_1500x1000-0aa4d2.jpg"

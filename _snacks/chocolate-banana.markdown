@@ -10,7 +10,7 @@ buy_link: http://amzn.to/2s9ZVPB
 ingredient_list_text: "Nourish Proprietary Blend™ (rolled oats, brown rice, chia seeds,
   brown rice syrup, sea salt), cane sugar, banana, unsweetened chocolate, expeller
   pressed sunflower oil, natural flavors, cocoa powder, cocoa butter, fruit pectin,
-  soy lecithin\n\nContains: soy\n\nNeed help understanding?   \n[Click Here](/posts/decoding-the-nutrition-facts-panel)
+  soy lecithin\n\ncontains: soy\n\nNeed Help Understanding?   \n[Click Here](/posts/decoding-the-nutrition-facts-panel)
   to read our post on how to read  the new nutrition facts panel.\n"
 ingredient_items:
 - ingredient_name: 'Rolled Oats and Brown Rice '

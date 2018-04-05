@@ -10,8 +10,8 @@ short_sub_header: Granola Bites
 buy_link: https://www.amazon.com/dp/B072P6FFTF
 ingredient_list_text: "Nourish Proprietary Blend™ (rolled oats, brown rice, chia seeds,
   brown rice syrup, sea salt), cane sugar, peanuts, unsweetened chocolate, natural
-  flavors, cocoa butter, fruit pectin, natural flavors, soy lecithin\n\nContains:
-  peanuts, soy\n\nNeed help understanding?  \n[Click Here](/posts/decoding-the-nutrition-facts-panel)
+  flavors, cocoa butter, fruit pectin, natural flavors, soy lecithin\n\ncontains:
+  peanuts, soy\n\nNeed Help Understanding?  \n[Click Here](/posts/decoding-the-nutrition-facts-panel)
   to read our post on how to read  the new nutrition facts panel."
 ingredient_items:
 - ingredient_name: 'Rolled Oats and Brown Rice '
