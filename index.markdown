@@ -6,9 +6,9 @@ header_background_color:
 header_primary_link_color: 
 header_secondary_link_color: 
 carousel_slides:
-- small_image: "/uploads/New%20AGCs_800x533V2.jpg"
-  medium_image: "/uploads/New%20AGCs_1000x667V2.jpg"
-  large_image: "/uploads/New%20AGCs_1500x1000V2.jpg"
+- small_image: "/uploads/New%20AGCs_800x533V2-f0a359.jpg"
+  medium_image: "/uploads/New%20AGCs_1000x667V2-849e1e.jpg"
+  large_image: "/uploads/New%20AGCs_1500x1000V2-9e37f8.jpg"
   title: The New Nourish
   url: "/posts/the-new-nourish/"
 - small_image: "/uploads/MeetJoy_800x533-84bb7b.jpg"
@@ -26,6 +26,10 @@ carousel_slides:
   large_image: "/uploads/Coconut_lg-d8f8a1.jpg"
   title: 
   url: "/snacks/coconut-vanilla/"
+crisps:
+- White Cheddar
+- Texas BBQ
+- Sea Salt
 snack:
 - Chocolate Banana
 - Coconut Vanilla
@@ -33,13 +37,9 @@ snack:
 - Blueberry Apple
 - Double Chocolate
 snacks:
-- Chocolate Banana
-- Coconut Vanilla
-- Chocolate Peanut Butter
-crisps:
-- White Cheddar
-- Texas BBQ
 - Sea Salt
+- White Cheddar
+- Coconut Vanilla
 crisp-title: POPPED ANCIENT GRAIN CRISPS
 granola-title: GRANOLA BITES
 layout: page-home
