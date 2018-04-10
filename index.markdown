@@ -33,9 +33,9 @@ snack:
 - Blueberry Apple
 - Double Chocolate
 snacks:
-- Chocolate Banana
+- Sea Salt
+- White Cheddar
 - Coconut Vanilla
-- Chocolate Peanut Butter
 crisps:
 - White Cheddar
 - Texas BBQ
