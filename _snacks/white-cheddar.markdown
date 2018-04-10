@@ -13,6 +13,27 @@ ingredient_list_text: "Nourish Proprietary Blend™ (whole grain sorghum, brown 
   ingredients\n\nMade in a nut-free facility\n\nNeed help understanding?   \n[Click
   Here](/posts/decoding-the-nutrition-facts-panel) to read our post on how to read
   \ the new nutrition facts panel.\n"
+ingredient_items:
+- ingredient_name: Whole Grain Sorghum
+  ingredient_description: 'Home grown in the US of A, its roots trace back to northeastern
+    Africa more than 10,000 years ago. Ancient and awesome! '
+- ingredient_name: Brown Rice
+  ingredient_description: Whole grain containing antioxidants and fiber to keep you
+    chugging along.
+- ingredient_name: Chia Seeds
+  ingredient_description: Superstar seeds filled with plant-based omega-3 fats and
+    filling fiber.
+- ingredient_name: Millet
+  ingredient_description: Tiny round seeds loaded with magnesium to help protect your
+    ticker.
+- ingredient_name: 'Quinoa '
+  ingredient_description: Quin-what? commonly mistaken for a grain, it’s actually
+    a protein-rich seed packed with fiber and even more magnesium.
+- ingredient_name: Hemp Seeds
+  ingredient_description: Not just for woven friendship bracelets and that other thing
+    ;) It’s technically a nut, chock full o’ nutty nutrients and heart healthy fats.
+- ingredient_name: 'Cheddar Cheese (Cultured Milk, Salt, Natural Flavors, Lactic Acid) '
+  ingredient_description: Adding creamy (real) cheddar cheesiness to every bite.
 serving_size_text: "28g, approximately 20 crisps   \nCalories 110 | Total Fat 4.5g
   |  \nSaturated Fat 1g | Trans Fat 0g |  \nCholesterol 5mg | Sodium 170mg |  \nTotal
   Carbohydrate 17g | Dietary Fiber 2g |  \nTotal Sugars <1g, Includes 0g Added Sugars
