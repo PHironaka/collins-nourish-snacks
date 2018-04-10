@@ -10,7 +10,7 @@ carousel_slides:
   medium_image: "/uploads/New%20AGCs_1000x667V2-229571.jpg"
   large_image: "/uploads/New%20AGCs_1500x1000V2-b60c9c.jpg"
   title: The New Nourish
-  url: "/posts/dig-in-and-en-joy/"
+  url: "/snacks/"
 - small_image: "/uploads/MeetJoy_800x533-84bb7b.jpg"
   medium_image: "/uploads/MeetJoy_1000x667-e34140.jpg"
   large_image: "/uploads/MeetJoy_1500x1000-0aa4d2.jpg"
