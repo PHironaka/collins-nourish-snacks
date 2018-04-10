@@ -34,6 +34,19 @@ ingredient_items:
     ;) It’s technically a nut, chock full o’ nutty nutrients and heart healthy fats.
 - ingredient_name: 'Cheddar Cheese (Cultured Milk, Salt, Natural Flavors, Lactic Acid) '
   ingredient_description: Adding creamy (real) cheddar cheesiness to every bite.
+- ingredient_name: 'Natural Flavors '
+  ingredient_description: Giving our delicious snacks a bit more delicious oomph.
+- ingredient_name: Sea Salt
+  ingredient_description: A sprinkling of salt makes everything taste better, there’s
+    no denying it.
+- ingredient_name: 'Whey '
+  ingredient_description: A powerhouse protein found in cheese. Whey? Yes, whey.
+- ingredient_name: 'Citric Acid '
+  ingredient_description: Naturally occurring in citrus fruits, delivering some lip-smacking
+    tang.
+- ingredient_name: 'Sunflower Oil '
+  ingredient_description: Helps all that finger-licking seasoning saturate each crisp
+    with flavor.
 serving_size_text: "28g, approximately 20 crisps   \nCalories 110 | Total Fat 4.5g
   |  \nSaturated Fat 1g | Trans Fat 0g |  \nCholesterol 5mg | Sodium 170mg |  \nTotal
   Carbohydrate 17g | Dietary Fiber 2g |  \nTotal Sugars <1g, Includes 0g Added Sugars
