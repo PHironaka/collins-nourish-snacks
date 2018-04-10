@@ -7,11 +7,16 @@ position: 0
 sub_header: Popped Ancient Grain Crisps
 short_sub_header: Ancient Grain Crisps
 buy_link: http://amzn.to/2s9ZVPB
-ingredient_list_text: "Nourish Proprietary Blend™ (rolled oats, brown rice, chia seeds,
-  brown rice syrup, sea salt), cane sugar, banana, unsweetened chocolate, expeller
-  pressed sunflower oil, natural flavors, cocoa powder, cocoa butter, fruit pectin,
-  soy lecithin\n\ncontains: soy\n\nNeed Help Understanding?   \n[Click Here](/posts/decoding-the-nutrition-facts-panel)
-  to read our post on how to read  the new nutrition facts panel.\n"
+ingredient_list_text: "Nourish Proprietary Blend™ (whole grain sorghum, brown rice,
+  chia seeds, millet, quinoa, hemp seeds), cheddar cheese (cultured milk, salt, natural
+  flavors, lactic acid), sea salt, whey, citric acid, sunflower oil\n\nContains: milk
+  ingredients\n\nMade in a nut-free facility\n\nNeed help understanding?   \n[Click
+  Here](/posts/decoding-the-nutrition-facts-panel) to read our post on how to read
+  \ the new nutrition facts panel.\n"
+serving_size_text: "28g, approximately 20 crisps   \nCalories 110 | Total Fat 4.5g
+  |  \nSaturated Fat 1g | Trans Fat 0g |  \nCholesterol 5mg | Sodium 170mg |  \nTotal
+  Carbohydrate 17g | Dietary Fiber 2g |  \nTotal Sugars <1g, Includes 0g Added Sugars
+  |  \nProtein 3g"
 main_image: "/uploads/WhiteCheddar_Primary.jpg"
 secondary_images:
 - "/uploads/WhiteCheddar_Secondary_FOP.png"
@@ -25,3 +30,4 @@ header_top_color: "#f4884c"
 header_bottom_color: "#f1e5b5"
 ---
 
+We're totally cheesin' over these White Cheddar Ancient Grain Crisps. So is our founder & nutritionist, Joy Bauer, who made them with purposeful ingredients like whole grain sorghum, quinoa, millet, brown rice, chia & hemp seeds. This super delicious snack is sure to make your taste buds smile. Say cheese!

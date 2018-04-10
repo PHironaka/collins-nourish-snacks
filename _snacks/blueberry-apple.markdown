@@ -9,7 +9,7 @@ short_sub_header: Granola Bites
 buy_link: http://amzn.to/2taUmz3
 ingredient_list_text: "Nourish Proprietary Blend™ (rolled oats, brown rice, chia seeds,
   brown rice syrup, sea salt), cane sugar, wild blueberries, expeller pressed sunflower
-  oil, apples, natural flavors, fruit pectin\n\nNeed Help Understanding?    \n[Click
+  oil, apples, natural flavors, fruit pectin\n\nNeed help understanding?    \n[Click
   Here](/posts/decoding-the-nutrition-facts-panel) to read our post on how to read
   \ the new nutrition facts panel."
 ingredient_items:
