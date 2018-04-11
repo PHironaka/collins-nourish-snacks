@@ -15,9 +15,12 @@
       {% include carousel.html %}
       {% endif %}
 
-      <section class="section snacks js-scrolled-trigger" id="#ancient-grain">
+      <section class="section snacks js-scrolled-trigger snacks__section-anchor" name="ancient-grain">
         <div class="container">
+          <a class="snack__section-anchor" name="ancient-grain">
+
 <h2 class="snack__title">{{page.crisp-title}}</h2>
+</a>
           <ul class="snacks__list grid">
             {% for snack in site.snacks %}
 
@@ -52,9 +55,12 @@
    
 
 
-      <section class="section snacks js-scrolled-trigger" id="#granola">
+      <section class="section snacks js-scrolled-trigger>
         <div class="container">
+          <a class="snack__section-anchor" name="granola">
+
           <h2 class="snack__title">{{page.granola-title}}</h2>
+        </a>
           <ul class="snacks__list grid">
            {% for snack in site.snacks %}
 
