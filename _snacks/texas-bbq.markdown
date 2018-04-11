@@ -53,7 +53,7 @@ serving_size_text: "28g, approximately 20 crisps   \nCalories 110 | Total Fat 3.
   |  \nSaturated Fat 0g | Trans Fat 0g |  \nCholesterol 0mg | Sodium 180mg |  \nTotal
   Carbohydrate 19g | Dietary Fiber 2g |  \nTotal Sugars 2g, Includes 1g Added Sugars
   |  \nProtein 2g"
-main_image: "/uploads/TexasBBQ_Primary.jpg"
+main_image: "/uploads/TexasBBQ_Primary_New.jpg"
 secondary_images:
 - "/uploads/TexasBBQ_Secondary_FOP.png"
 - "/uploads/TexasBBQ_Secondary_BOP.png"

@@ -42,7 +42,7 @@ serving_size_text: "28g, approximately 20 crisps   \nCalories 110 | Total Fat 3.
   |  \nSaturated Fat 0g | Trans Fat 0g |  \nCholesterol 0mg | Sodium 180mg |  \nTotal
   Carbohydrate 18g | Dietary Fiber 2g |  \nTotal Sugars 0g, Includes 0g Added Sugars
   |  \nProtein 3g"
-main_image: "/uploads/SeaSalt_Primary.jpg"
+main_image: "/uploads/SeaSalt_Primary_New.jpg"
 secondary_images:
 - "/uploads/SeaSalt_Secondary_FOP.png"
 - "/uploads/SeaSalt_Secondary_BOP.png"

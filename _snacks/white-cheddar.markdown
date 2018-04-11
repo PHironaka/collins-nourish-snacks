@@ -51,7 +51,7 @@ serving_size_text: "28g, approximately 20 crisps   \nCalories 110 | Total Fat 4.
   |  \nSaturated Fat 1g | Trans Fat 0g |  \nCholesterol 5mg | Sodium 170mg |  \nTotal
   Carbohydrate 17g | Dietary Fiber 2g |  \nTotal Sugars <1g, Includes 0g Added Sugars
   |  \nProtein 3g"
-main_image: "/uploads/WhiteCheddar_Primary.jpg"
+main_image: "/uploads/WhiteCheddar_Primary_New.jpg"
 secondary_images:
 - "/uploads/WhiteCheddar_Secondary_FOP.png"
 - "/uploads/WhiteCheddar_Secondary_BOP.png"
