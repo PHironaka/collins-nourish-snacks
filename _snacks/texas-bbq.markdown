@@ -6,7 +6,7 @@ tags:
 position: 2
 sub_header: Popped Ancient Grain Crisps
 short_sub_header: Ancient Grain Crisps
-buy_link: http://amzn.to/2s9ZVPB
+buy_link: https://www.amazon.com/dp/B07C5G66H2
 ingredient_list_text: "Nourish®Proprietary Blend™ (whole grain sorghum, brown rice,
   chia seeds, millet, quinoa, hemp seeds), sugar, brown sugar, sea salt, spices, tomato,
   onion, garlic, smoked paprika, sweet paprika, citric acid, natural flavors, sunflower
