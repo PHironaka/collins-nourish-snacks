@@ -19,7 +19,7 @@ GMOs cannot occur in nature. Scientists must manually splice the genes (aka, rew
 
 Some would claim this is awesome, because, duh you’ve got larger, more nutritious pumpkins and can now feed a hungry world (and with pumpkin pie, no less!). Others, would argue that you’re “playing God” since this would never have occurred in nature, and just imagine if things got weird, and they started making giant flying pigs. Yikes.
 
-**Which foods are GMO?**
+**Which foods are GMO?**  
 
 Some foods are GMOs themselves; others are cross-pollinated (i.e. corn seed blows into a neighboring farm) or cross-contaminated (i.e. flour mixes with GMO flour residue on equipment). Some estimates suggest 80% of foods grown in the US contain GMOs. Most consumers aren’t aware of this.
 
@@ -66,10 +66,12 @@ Some foods are GMOs themselves; others are cross-pollinated (i.e. corn seed blow
  
 *Animal products that are often cross-contaminated:* milk, meat, eggs, honey
 
-**Are organic foods non-GMO?**
+**Are organic foods non-GMO?**  
+
 Most likely. Organic food companies are not allowed to knowingly plant GM seed, but organic certification does not require testing. This means organic foods are much less likely to contain GMOs, but they still need to be verified to be sure.
 
-**Are GMOs bad for you?**
+**Are GMOs bad for you?**  
+
 The short answer is, we’re not really sure. Most GMOs are probably harmless. Proponents boast about incredible applications like growing bananas that come packaged with the flu vaccine (No joke. So cool.) But the truth is, genetic modification is a relatively new type of biotechnology, and the jury’s still out on how they impact our health and the environment. It’s kind of like a giant experiment at the moment.
 
 At Nourish Snacks, we believe going “no or pro” GMO is a personal choice and we support full transparency on food labels. This way, you can check the package and at least know when you’re eating them. After all, unless your broccoli starts growing it’s own cheese topping, there’s no way to tell just by looking at your food whether it’s GMO or not.
