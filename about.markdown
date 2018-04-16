@@ -84,7 +84,7 @@ faq_snacks:
     (for us it proved to be limiting and cost prohibitive). In fact, take a look in
     the snack aisle next time you’re in the grocery store—you’ll find that there are
     lots of non-GMO cheese *flavored* products that don’t actually contain real cheese.\n
-    \nTo learn more about GMOs, read <a href=\"https://nourishsnacks.com/posts/whats-the-deal-with-gmos/\"
+    \nTo learn more about GMOs, read <a href=\"/posts/whats-the-deal-with-gmos/\"
     target=\"_blank\">our blog post</a>."
 - question: Are your snacks gluten-free?
   answer: All the ingredients we use are naturally gluten-free, but our snacks are
