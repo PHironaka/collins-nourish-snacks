@@ -80,4 +80,4 @@ Since the government has no regulations on GMOs, a group of retailers got togeth
 
 **Nourish Snacks and Non-GMO**
 
-All of our snacks are inherently non-GMO. We are enrolled with the Non-GMO Project, and all of our snacks will soon bear the Non-GMO Verified logo.
+All of our Granola Bite snacks are Non-GMO Project Verified. All of our products are inherently non-GMO, with the small exception of our White Cheddar Ancient Grain Crisps. All the other Ancient Grain Crisps are enrolled with the Non-GMO Project, and will soon bear the Non-GMO Project Verified logo.

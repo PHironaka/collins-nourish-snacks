@@ -76,7 +76,16 @@ faq_snacks:
     artificial to our snacks – no artificial sweeteners, no artificial colors, and
     no artificial preservatives.
 - question: Do your snacks contain genetically modified organisms (GMOs)?
-  answer: None of our products contain GMOs.
+  answer: "All of our Granola Bite products are Non-GMO Project Verified.\n\nNone
+    of our products contain GMOs, with the small exception of our White Cheddar Ancient
+    Grain Crisps. Here’s why: While all of our grains and seeds in our White Cheddar
+    Ancient Grain Crisps are non-GMO, we are committed to using real cheese as an
+    ingredient for this flavor. Turns out, sourcing non-GMO dairy is somewhat difficult
+    (for us it proved to be limiting and cost prohibitive). In fact, take a look in
+    the snack aisle next time you’re in the grocery store—you’ll find that there are
+    lots of non-GMO cheese *flavored* products that don’t actually contain real cheese.\n
+    \nTo learn more about GMOs, read <a href=\"https://nourishsnacks.com/posts/whats-the-deal-with-gmos/\"
+    target=\"_blank\">our blog post</a>."
 - question: Are your snacks gluten-free?
   answer: All the ingredients we use are naturally gluten-free, but our snacks are
     not Certified Gluten-Free.
