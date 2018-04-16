@@ -6,7 +6,7 @@ tags:
 position: 0
 sub_header: Popped Ancient Grain Crisps
 short_sub_header: Ancient Grain Crisps
-buy_link: http://amzn.to/2s9ZVPB
+buy_link: https://www.amazon.com/dp/B07C5WW88Q
 ingredient_list_text: "Nourish Proprietary Blend™ (whole grain sorghum, brown rice,
   chia seeds, millet, quinoa, hemp seeds), cheddar cheese (cultured milk, salt, natural
   flavors, lactic acid), sea salt, whey, citric acid, sunflower oil\n\nContains: milk
