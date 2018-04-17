@@ -15,8 +15,8 @@ ingredient_list_text: "Nourish Proprietary Blend™ (whole grain sorghum, brown 
   \ the new nutrition facts panel.\n"
 ingredient_items:
 - ingredient_name: Whole Grain Sorghum
-  ingredient_description: 'Home grown in the US of A, its roots trace back to northeastern
-    Africa more than 10,000 years ago. Ancient and awesome! '
+  ingredient_description: 'Resembling teeny-tiny popcorn, this ancient grain (think:
+    10,000 years old!) packs big-time nutrients like protein, fiber, iron, and antioxidants.'
 - ingredient_name: Brown Rice
   ingredient_description: Whole grain containing antioxidants and fiber to keep you
     chugging along.
